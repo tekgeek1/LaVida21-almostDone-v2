@@ -7,21 +7,315 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0DDE6B21CACC6C00DE08C7 /* TimeSensetiveChestWorkout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE6A21CACC6C00DE08C7 /* TimeSensetiveChestWorkout3.swift */; };
+		0E0DDE6D21CACEC900DE08C7 /* TimeSensitiveWorkout4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE6C21CACEC900DE08C7 /* TimeSensitiveWorkout4.swift */; };
+		0E0DDE6F21CAD32000DE08C7 /* UpperChestWorkout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE6E21CAD32000DE08C7 /* UpperChestWorkout1.swift */; };
+		0E0DDE7121CADC7B00DE08C7 /* UpperChestWorkout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE7021CADC7B00DE08C7 /* UpperChestWorkout2.swift */; };
+		0E0DDE7321CADF8F00DE08C7 /* UpperChestWorkout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE7221CADF8F00DE08C7 /* UpperChestWorkout3.swift */; };
+		0E0DDE7521CB220300DE08C7 /* LowerChestWorkout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE7421CB220300DE08C7 /* LowerChestWorkout1.swift */; };
+		0E0DDE7721CB259200DE08C7 /* LowerChestWorkout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE7621CB259200DE08C7 /* LowerChestWorkout2.swift */; };
+		0E0DDE7921CB286F00DE08C7 /* LowerChestWorkout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE7821CB286F00DE08C7 /* LowerChestWorkout3.swift */; };
+		0E0DDE7B21CB2B7900DE08C7 /* AllInclusiveChesrWorkout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE7A21CB2B7900DE08C7 /* AllInclusiveChesrWorkout1.swift */; };
+		0E0DDE7D21CB2FA000DE08C7 /* AllInclusiveChestWorkout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE7C21CB2FA000DE08C7 /* AllInclusiveChestWorkout2.swift */; };
+		0E0DDE7F21CB33E300DE08C7 /* AllInclusiveChestWorkouts3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE7E21CB33E300DE08C7 /* AllInclusiveChestWorkouts3.swift */; };
+		0E0DDE8121CB36EF00DE08C7 /* AllInclusiveChestWorkout4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE8021CB36EF00DE08C7 /* AllInclusiveChestWorkout4.swift */; };
+		0E0DDE8321CB390F00DE08C7 /* AllInclusiveChesatWorkout5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE8221CB390F00DE08C7 /* AllInclusiveChesatWorkout5.swift */; };
+		0E0DDE8521CB40DF00DE08C7 /* AllInclusiveChestWorkout6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE8421CB40DF00DE08C7 /* AllInclusiveChestWorkout6.swift */; };
+		0E0DDE8721CC1F2D00DE08C7 /* BackWorkoutSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0DDE8621CC1F2D00DE08C7 /* BackWorkoutSelection.swift */; };
+		0E1D61A721CC292000CE6DB3 /* TimeSensetiveBackWorkout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D61A621CC292000CE6DB3 /* TimeSensetiveBackWorkout1.swift */; };
+		0E1D61A921CC2FEC00CE6DB3 /* TimeSensetiveBackWorkouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D61A821CC2FEC00CE6DB3 /* TimeSensetiveBackWorkouts.swift */; };
+		0E1D61AB21CC32F600CE6DB3 /* TimeSensetiveBackWorkout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D61AA21CC32F600CE6DB3 /* TimeSensetiveBackWorkout3.swift */; };
+		0E1D61AD21CC38D400CE6DB3 /* FullBackWorkout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D61AC21CC38D400CE6DB3 /* FullBackWorkout1.swift */; };
+		0E1D61AF21CC3B0F00CE6DB3 /* FullBackWorkout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D61AE21CC3B0F00CE6DB3 /* FullBackWorkout2.swift */; };
+		0E1D61B121CC3F8500CE6DB3 /* FullBackWorkout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D61B021CC3F8500CE6DB3 /* FullBackWorkout3.swift */; };
+		0E1D61B321CC422700CE6DB3 /* FullBackWorkout4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D61B221CC422700CE6DB3 /* FullBackWorkout4.swift */; };
+		0E1D61B521CC454C00CE6DB3 /* FullBackWorkout5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D61B421CC454C00CE6DB3 /* FullBackWorkout5.swift */; };
+		0E1D61B721CC463B00CE6DB3 /* FullBackWorkout6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D61B621CC463B00CE6DB3 /* FullBackWorkout6.swift */; };
 		0E39A36521C3696B00D97C09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E39A36421C3696A00D97C09 /* AppDelegate.swift */; };
-		0E39A36721C3696B00D97C09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E39A36621C3696B00D97C09 /* ViewController.swift */; };
 		0E39A36A21C3696B00D97C09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E39A36821C3696B00D97C09 /* Main.storyboard */; };
 		0E39A36C21C3696C00D97C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E39A36B21C3696C00D97C09 /* Assets.xcassets */; };
 		0E39A36F21C3696C00D97C09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E39A36D21C3696C00D97C09 /* LaunchScreen.storyboard */; };
+		0E42F41E21D41045004A9E0A /* DeclineStandingCableFlyes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E42F41D21D41045004A9E0A /* DeclineStandingCableFlyes.swift */; };
+		0E42F42021D41294004A9E0A /* ChestPressMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E42F41F21D41294004A9E0A /* ChestPressMachine.swift */; };
+		0E42F42221D413F7004A9E0A /* InclineDumbbellPullovers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E42F42121D413F7004A9E0A /* InclineDumbbellPullovers.swift */; };
+		0E57FAAE21D5CF6B006C872A /* BicepWorkout4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAAD21D5CF6B006C872A /* BicepWorkout4.swift */; };
+		0E57FAB021D5D210006C872A /* InclineCurls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAAF21D5D210006C872A /* InclineCurls.swift */; };
+		0E57FAB221D5D2F4006C872A /* OverheadCableCurls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAB121D5D2F4006C872A /* OverheadCableCurls.swift */; };
+		0E57FAB421D5D404006C872A /* EZBarCurl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAB321D5D404006C872A /* EZBarCurl.swift */; };
+		0E57FAB621D5D4CA006C872A /* ConcentrationCurls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAB521D5D4CA006C872A /* ConcentrationCurls.swift */; };
+		0E57FAB821D5D5BC006C872A /* PreacherCurls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAB721D5D5BC006C872A /* PreacherCurls.swift */; };
+		0E57FABA21D5D790006C872A /* CableHammerCurls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAB921D5D790006C872A /* CableHammerCurls.swift */; };
+		0E57FABC21D5D855006C872A /* ZottmanCurl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FABB21D5D855006C872A /* ZottmanCurl.swift */; };
+		0E57FABE21D5DABC006C872A /* SeatedDumbbellCurls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FABD21D5DABC006C872A /* SeatedDumbbellCurls.swift */; };
+		0E57FAC021D5DB70006C872A /* InclineSupportedCurls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FABF21D5DB70006C872A /* InclineSupportedCurls.swift */; };
+		0E57FAC221D686CE006C872A /* TricepWorkoutSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAC121D686CE006C872A /* TricepWorkoutSelection.swift */; };
+		0E57FAC421D68CFA006C872A /* TricepWorkout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAC321D68CFA006C872A /* TricepWorkout1.swift */; };
+		0E57FAC621D6A8E5006C872A /* TricepWorkout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAC521D6A8E5006C872A /* TricepWorkout2.swift */; };
+		0E57FAC821D6AD69006C872A /* TricepWorkout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAC721D6AD69006C872A /* TricepWorkout3.swift */; };
+		0E57FACA21D6AF2B006C872A /* SkullCrushers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAC921D6AF2B006C872A /* SkullCrushers.swift */; };
+		0E57FACC21D6B0CC006C872A /* DumbbellKickbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FACB21D6B0CC006C872A /* DumbbellKickbacks.swift */; };
+		0E57FACE21D6B1A5006C872A /* CableHoldPushdowns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FACD21D6B1A5006C872A /* CableHoldPushdowns.swift */; };
+		0E57FAD021D6B2D1006C872A /* Dips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FACF21D6B2D1006C872A /* Dips.swift */; };
+		0E57FAD221D6B46B006C872A /* InclineSkullCrushers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAD121D6B46B006C872A /* InclineSkullCrushers.swift */; };
+		0E57FAD421D6B564006C872A /* OverheadExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAD321D6B564006C872A /* OverheadExtensions.swift */; };
+		0E57FAD621D6B64F006C872A /* ReverseGripPushdowns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAD521D6B64F006C872A /* ReverseGripPushdowns.swift */; };
+		0E57FAD821D6C3BC006C872A /* LegWorkoutSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAD721D6C3BC006C872A /* LegWorkoutSelection.swift */; };
+		0E57FADA21D6CCD0006C872A /* TimeSensitiveLegWorkout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAD921D6CCD0006C872A /* TimeSensitiveLegWorkout1.swift */; };
+		0E57FADC21D6CE1C006C872A /* TimeSensitiveLegWorkout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FADB21D6CE1C006C872A /* TimeSensitiveLegWorkout2.swift */; };
+		0E57FADE21D6D084006C872A /* TimeSensitiveLegWorkout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FADD21D6D084006C872A /* TimeSensitiveLegWorkout3.swift */; };
+		0E57FAE021D6D45B006C872A /* LegWorkout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FADF21D6D45B006C872A /* LegWorkout1.swift */; };
+		0E57FAE221D6D628006C872A /* LegWorkout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAE121D6D628006C872A /* LegWorkout2.swift */; };
+		0E57FAE421D6D846006C872A /* LegWorkout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAE321D6D846006C872A /* LegWorkout3.swift */; };
+		0E57FAE621D6DB3E006C872A /* LegWorkout4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAE521D6DB3D006C872A /* LegWorkout4.swift */; };
+		0E57FAE821D6DDD6006C872A /* LegPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAE721D6DDD6006C872A /* LegPress.swift */; };
+		0E57FAEA21D6DEF3006C872A /* LegExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAE921D6DEF3006C872A /* LegExtensions.swift */; };
+		0E57FAEC21D6DFED006C872A /* LegCurl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAEB21D6DFED006C872A /* LegCurl.swift */; };
+		0E57FAEE21D6E181006C872A /* DumbbellWalkingLunges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAED21D6E181006C872A /* DumbbellWalkingLunges.swift */; };
+		0E57FAF021D6E303006C872A /* FrontSquat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAEF21D6E303006C872A /* FrontSquat.swift */; };
+		0E57FAF221D6E440006C872A /* DumbbellRomanianDeadlifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAF121D6E440006C872A /* DumbbellRomanianDeadlifts.swift */; };
+		0E57FAF421D6E569006C872A /* RearFootElevatedLunge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAF321D6E569006C872A /* RearFootElevatedLunge.swift */; };
+		0E57FAF621D6FF53006C872A /* HackSquat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAF521D6FF53006C872A /* HackSquat.swift */; };
+		0E57FAF821D7004D006C872A /* StiffLeggedDeadlifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAF721D7004D006C872A /* StiffLeggedDeadlifts.swift */; };
+		0E57FAFA21D701E9006C872A /* CalfPressonLegPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAF921D701E9006C872A /* CalfPressonLegPress.swift */; };
+		0E57FAFC21D703A9006C872A /* SeatedCalfRaises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAFB21D703A9006C872A /* SeatedCalfRaises.swift */; };
+		0E57FAFE21D7100C006C872A /* AbWorkout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAFD21D7100C006C872A /* AbWorkout1.swift */; };
+		0E57FB0021D82EC5006C872A /* AbWorkout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FAFF21D82EC5006C872A /* AbWorkout2.swift */; };
+		0E57FB0221D82F93006C872A /* AbWorkout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FB0121D82F93006C872A /* AbWorkout3.swift */; };
+		0E57FB0421D83357006C872A /* AbWorkout4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FB0321D83357006C872A /* AbWorkout4.swift */; };
+		0E57FB0621D85F70006C872A /* FeetLiftedCrunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FB0521D85F70006C872A /* FeetLiftedCrunch.swift */; };
+		0E57FB0821D863A7006C872A /* LegsStraightUpCrunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FB0721D863A7006C872A /* LegsStraightUpCrunch.swift */; };
+		0E57FB0A21D86503006C872A /* Lying Flat Leg Lifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FB0921D86503006C872A /* Lying Flat Leg Lifts.swift */; };
+		0E57FB0C21D866F5006C872A /* WindsheildWippers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FB0B21D866F5006C872A /* WindsheildWippers.swift */; };
+		0E57FB0E21D868A5006C872A /* VUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FB0D21D868A5006C872A /* VUps.swift */; };
+		0E57FB1021D869FE006C872A /* HealTouches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FB0F21D869FE006C872A /* HealTouches.swift */; };
+		0E57FB1221D86B1B006C872A /* MountainClimbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FB1121D86B1B006C872A /* MountainClimbers.swift */; };
+		0E57FB1421D86C6A006C872A /* HangingLegRaises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FB1321D86C6A006C872A /* HangingLegRaises.swift */; };
+		0E57FB1621D872C7006C872A /* Plank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FB1521D872C7006C872A /* Plank.swift */; };
+		0E57FB1821D873DF006C872A /* ElbowToKneeTwist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FB1721D873DF006C872A /* ElbowToKneeTwist.swift */; };
+		0E57FB1A21D8750A006C872A /* RussianTwists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FB1921D8750A006C872A /* RussianTwists.swift */; };
+		0E57FB1C21D876D8006C872A /* CableCrunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57FB1B21D876D8006C872A /* CableCrunch.swift */; };
+		0E5BD7B921D46CD800985774 /* Pushups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7B821D46CD800985774 /* Pushups.swift */; };
+		0E5BD7BD21D4704200985774 /* DeclineBenchPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7BC21D4704200985774 /* DeclineBenchPress.swift */; };
+		0E5BD7BF21D471C900985774 /* LandminePress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7BE21D471C900985774 /* LandminePress.swift */; };
+		0E5BD7C121D477AA00985774 /* Pullups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7C021D477AA00985774 /* Pullups.swift */; };
+		0E5BD7C321D4794300985774 /* BentOverDumbbellRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7C221D4794300985774 /* BentOverDumbbellRows.swift */; };
+		0E5BD7C521D47AB800985774 /* LatPullDowns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7C421D47AB800985774 /* LatPullDowns.swift */; };
+		0E5BD7C721D47C4100985774 /* CableLowRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7C621D47C4100985774 /* CableLowRows.swift */; };
+		0E5BD7C921D47D5200985774 /* PushupsBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7C821D47D5200985774 /* PushupsBack.swift */; };
+		0E5BD7CB21D4812D00985774 /* TBarRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7CA21D4812D00985774 /* TBarRows.swift */; };
+		0E5BD7CD21D481E900985774 /* BehindTheNeckLatPullDowns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7CC21D481E900985774 /* BehindTheNeckLatPullDowns.swift */; };
+		0E5BD7CF21D4839500985774 /* BentOverBarbellRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7CE21D4839500985774 /* BentOverBarbellRows.swift */; };
+		0E5BD7D121D4853400985774 /* OneArmDumbbellRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7D021D4853400985774 /* OneArmDumbbellRows.swift */; };
+		0E5BD7D321D4878000985774 /* CableStraightArmPullDowns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7D221D4878000985774 /* CableStraightArmPullDowns.swift */; };
+		0E5BD7D521D489AD00985774 /* Deadlifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7D421D489AD00985774 /* Deadlifts.swift */; };
+		0E5BD7D721D48A8200985774 /* BehindTheNeckLatPullDownMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7D621D48A8200985774 /* BehindTheNeckLatPullDownMachine.swift */; };
+		0E5BD7D921D48BE000985774 /* LeverageHighRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7D821D48BE000985774 /* LeverageHighRow.swift */; };
+		0E5BD7DB21D48C9700985774 /* BackExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7DA21D48C9700985774 /* BackExtensions.swift */; };
+		0E5BD7DD21D48DA200985774 /* ChestSupportedDumbbellRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7DC21D48DA200985774 /* ChestSupportedDumbbellRows.swift */; };
+		0E5BD7DF21D48E9E00985774 /* RenegadeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7DE21D48E9E00985774 /* RenegadeRow.swift */; };
+		0E5BD7E121D547A100985774 /* DumbbellShoulderPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7E021D547A100985774 /* DumbbellShoulderPress.swift */; };
+		0E5BD7E321D5548100985774 /* CableRearDeltFlyes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7E221D5548100985774 /* CableRearDeltFlyes.swift */; };
+		0E5BD7E521D5564300985774 /* PlateFrontRaises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7E421D5564300985774 /* PlateFrontRaises.swift */; };
+		0E5BD7E721D557B800985774 /* StandingLateralRaises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7E621D557B800985774 /* StandingLateralRaises.swift */; };
+		0E5BD7E921D5599900985774 /* UprightBarbellRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7E821D5599900985774 /* UprightBarbellRow.swift */; };
+		0E5BD7EB21D55BBE00985774 /* StandingOverheadPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7EA21D55BBE00985774 /* StandingOverheadPress.swift */; };
+		0E5BD7ED21D5791500985774 /* SeatedDumbbelllateralRaises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7EC21D5791500985774 /* SeatedDumbbelllateralRaises.swift */; };
+		0E5BD7EF21D57C9C00985774 /* BentoverReverseDumbbellRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7EE21D57C9C00985774 /* BentoverReverseDumbbellRows.swift */; };
+		0E5BD7F121D57DBA00985774 /* CableUprightRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7F021D57DBA00985774 /* CableUprightRow.swift */; };
+		0E5BD7F321D57F1E00985774 /* FrontCableRopeRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7F221D57F1E00985774 /* FrontCableRopeRows.swift */; };
+		0E5BD7F521D5801300985774 /* RearDeltFlyes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7F421D5801300985774 /* RearDeltFlyes.swift */; };
+		0E5BD7F721D583EF00985774 /* HangCleans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7F621D583EF00985774 /* HangCleans.swift */; };
+		0E5BD7F921D5852100985774 /* ArnaldPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7F821D5852100985774 /* ArnaldPress.swift */; };
+		0E5BD7FB21D5862E00985774 /* SeatedBarbellPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7FA21D5862E00985774 /* SeatedBarbellPress.swift */; };
+		0E5BD7FD21D591A700985774 /* BicepWorkoutSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7FC21D591A700985774 /* BicepWorkoutSelection.swift */; };
+		0E5BD7FF21D594ED00985774 /* BicepWorkout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD7FE21D594ED00985774 /* BicepWorkout1.swift */; };
+		0E5BD80121D5B3EB00985774 /* BicepWorkout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD80021D5B3EB00985774 /* BicepWorkout2.swift */; };
+		0E5BD80321D5B6F300985774 /* BicepWorkout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BD80221D5B6F300985774 /* BicepWorkout3.swift */; };
+		0EADFCB421C6DEAD00527E41 /* TimeSensitiveChestWorkout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EADFCB321C6DEAD00527E41 /* TimeSensitiveChestWorkout1.swift */; };
+		0EADFCB821C750FE00527E41 /* TimeSelectiveChestWorkout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EADFCB721C750FE00527E41 /* TimeSelectiveChestWorkout2.swift */; };
+		0EB6043D21CDCCC300E2C569 /* ShouldersSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6043C21CDCCC300E2C569 /* ShouldersSelection.swift */; };
+		0EB6043F21CDD5C300E2C569 /* TimeSensitveSHoudlerWorkout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6043E21CDD5C300E2C569 /* TimeSensitveSHoudlerWorkout1.swift */; };
+		0EB6044121CDDE0800E2C569 /* TImeSensetiveShoulderWorkout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6044021CDDE0800E2C569 /* TImeSensetiveShoulderWorkout2.swift */; };
+		0EB6044321CDE0B100E2C569 /* TimeSensetiveShoulderWorkout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6044221CDE0B100E2C569 /* TimeSensetiveShoulderWorkout3.swift */; };
+		0EB6044521CDE1B200E2C569 /* FullShoulderWorkout1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6044421CDE1B200E2C569 /* FullShoulderWorkout1.swift */; };
+		0EB6044721CDE3DE00E2C569 /* FullShoulderWorkout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6044621CDE3DE00E2C569 /* FullShoulderWorkout2.swift */; };
+		0EB6044921CDE86000E2C569 /* FullShoulderWorkout3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6044821CDE86000E2C569 /* FullShoulderWorkout3.swift */; };
+		0EB6044B21CDEB8700E2C569 /* FullShoulderWorkout4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB6044A21CDEB8700E2C569 /* FullShoulderWorkout4.swift */; };
+		0EC1BC8A21CED2EE00368FED /* BenchPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1BC8921CED2EE00368FED /* BenchPress.swift */; };
+		0EC1BC8C21CF1FDE00368FED /* DumbbellChestPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1BC8B21CF1FDE00368FED /* DumbbellChestPress.swift */; };
+		0EC1BC8E21CF232E00368FED /* InclineDumbbellPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1BC8D21CF232E00368FED /* InclineDumbbellPress.swift */; };
+		0EC1BC9021CF250D00368FED /* CloseGripDumbbellPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1BC8F21CF250D00368FED /* CloseGripDumbbellPress.swift */; };
+		0EC1BC9221CF287600368FED /* DeclineDumbbellPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1BC9121CF287600368FED /* DeclineDumbbellPress.swift */; };
+		0EC1BC9421CF2A5A00368FED /* PecDeckFlyes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1BC9321CF2A5A00368FED /* PecDeckFlyes.swift */; };
+		0EC1BC9621CF2BC200368FED /* LowCableFlyes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1BC9521CF2BC200368FED /* LowCableFlyes.swift */; };
+		0EC1BC9821CF2F1B00368FED /* FlatDumbbellFlyes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1BC9721CF2F1B00368FED /* FlatDumbbellFlyes.swift */; };
+		0EC1BC9A21CF31E500368FED /* ChestDips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1BC9921CF31E500368FED /* ChestDips.swift */; };
+		0EC1BC9C21CF340600368FED /* FlatBenchCableFlyes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1BC9B21CF340600368FED /* FlatBenchCableFlyes.swift */; };
+		0EC1BC9E21CF35CA00368FED /* InclineBenchPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1BC9D21CF35CA00368FED /* InclineBenchPress.swift */; };
+		0EF898CD21C4A9C200D31402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF898CC21C4A9C200D31402 /* ViewController.swift */; };
+		0EF8995121C4B3CE00D31402 /* WorkoutSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF8995021C4B3CE00D31402 /* WorkoutSelection.swift */; };
+		0EF8995921C5C67500D31402 /* ChestWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF8995821C5C67500D31402 /* ChestWorkout.swift */; };
+		20703CAA650F27490A3174BC /* Pods_LaVida21.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050A4DEBB6F389A0F6763D68 /* Pods_LaVida21.framework */; };
+		4B02D71B21DC0C650069F8C9 /* LaVida.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B02D71921DC0C650069F8C9 /* LaVida.xcdatamodeld */; };
+		4BAF5C2421E801FE004788F3 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAF5C2321E801FE004788F3 /* common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		050A4DEBB6F389A0F6763D68 /* Pods_LaVida21.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaVida21.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E0DDE6A21CACC6C00DE08C7 /* TimeSensetiveChestWorkout3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSensetiveChestWorkout3.swift; sourceTree = "<group>"; };
+		0E0DDE6C21CACEC900DE08C7 /* TimeSensitiveWorkout4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSensitiveWorkout4.swift; sourceTree = "<group>"; };
+		0E0DDE6E21CAD32000DE08C7 /* UpperChestWorkout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperChestWorkout1.swift; sourceTree = "<group>"; };
+		0E0DDE7021CADC7B00DE08C7 /* UpperChestWorkout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperChestWorkout2.swift; sourceTree = "<group>"; };
+		0E0DDE7221CADF8F00DE08C7 /* UpperChestWorkout3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperChestWorkout3.swift; sourceTree = "<group>"; };
+		0E0DDE7421CB220300DE08C7 /* LowerChestWorkout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerChestWorkout1.swift; sourceTree = "<group>"; };
+		0E0DDE7621CB259200DE08C7 /* LowerChestWorkout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerChestWorkout2.swift; sourceTree = "<group>"; };
+		0E0DDE7821CB286F00DE08C7 /* LowerChestWorkout3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerChestWorkout3.swift; sourceTree = "<group>"; };
+		0E0DDE7A21CB2B7900DE08C7 /* AllInclusiveChesrWorkout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllInclusiveChesrWorkout1.swift; sourceTree = "<group>"; };
+		0E0DDE7C21CB2FA000DE08C7 /* AllInclusiveChestWorkout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllInclusiveChestWorkout2.swift; sourceTree = "<group>"; };
+		0E0DDE7E21CB33E300DE08C7 /* AllInclusiveChestWorkouts3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllInclusiveChestWorkouts3.swift; sourceTree = "<group>"; };
+		0E0DDE8021CB36EF00DE08C7 /* AllInclusiveChestWorkout4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllInclusiveChestWorkout4.swift; sourceTree = "<group>"; };
+		0E0DDE8221CB390F00DE08C7 /* AllInclusiveChesatWorkout5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllInclusiveChesatWorkout5.swift; sourceTree = "<group>"; };
+		0E0DDE8421CB40DF00DE08C7 /* AllInclusiveChestWorkout6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllInclusiveChestWorkout6.swift; sourceTree = "<group>"; };
+		0E0DDE8621CC1F2D00DE08C7 /* BackWorkoutSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackWorkoutSelection.swift; sourceTree = "<group>"; };
+		0E1D61A621CC292000CE6DB3 /* TimeSensetiveBackWorkout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSensetiveBackWorkout1.swift; sourceTree = "<group>"; };
+		0E1D61A821CC2FEC00CE6DB3 /* TimeSensetiveBackWorkouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSensetiveBackWorkouts.swift; sourceTree = "<group>"; };
+		0E1D61AA21CC32F600CE6DB3 /* TimeSensetiveBackWorkout3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSensetiveBackWorkout3.swift; sourceTree = "<group>"; };
+		0E1D61AC21CC38D400CE6DB3 /* FullBackWorkout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullBackWorkout1.swift; sourceTree = "<group>"; };
+		0E1D61AE21CC3B0F00CE6DB3 /* FullBackWorkout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullBackWorkout2.swift; sourceTree = "<group>"; };
+		0E1D61B021CC3F8500CE6DB3 /* FullBackWorkout3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullBackWorkout3.swift; sourceTree = "<group>"; };
+		0E1D61B221CC422700CE6DB3 /* FullBackWorkout4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullBackWorkout4.swift; sourceTree = "<group>"; };
+		0E1D61B421CC454C00CE6DB3 /* FullBackWorkout5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullBackWorkout5.swift; sourceTree = "<group>"; };
+		0E1D61B621CC463B00CE6DB3 /* FullBackWorkout6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullBackWorkout6.swift; sourceTree = "<group>"; };
 		0E39A36121C3696A00D97C09 /* LaVida21.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaVida21.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E39A36421C3696A00D97C09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0E39A36621C3696B00D97C09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0E39A36921C3696B00D97C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E39A36B21C3696C00D97C09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E39A36E21C3696C00D97C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E39A37021C3696C00D97C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E42F41D21D41045004A9E0A /* DeclineStandingCableFlyes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeclineStandingCableFlyes.swift; sourceTree = "<group>"; };
+		0E42F41F21D41294004A9E0A /* ChestPressMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestPressMachine.swift; sourceTree = "<group>"; };
+		0E42F42121D413F7004A9E0A /* InclineDumbbellPullovers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InclineDumbbellPullovers.swift; sourceTree = "<group>"; };
+		0E57FAAD21D5CF6B006C872A /* BicepWorkout4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicepWorkout4.swift; sourceTree = "<group>"; };
+		0E57FAAF21D5D210006C872A /* InclineCurls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InclineCurls.swift; sourceTree = "<group>"; };
+		0E57FAB121D5D2F4006C872A /* OverheadCableCurls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverheadCableCurls.swift; sourceTree = "<group>"; };
+		0E57FAB321D5D404006C872A /* EZBarCurl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZBarCurl.swift; sourceTree = "<group>"; };
+		0E57FAB521D5D4CA006C872A /* ConcentrationCurls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationCurls.swift; sourceTree = "<group>"; };
+		0E57FAB721D5D5BC006C872A /* PreacherCurls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreacherCurls.swift; sourceTree = "<group>"; };
+		0E57FAB921D5D790006C872A /* CableHammerCurls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CableHammerCurls.swift; sourceTree = "<group>"; };
+		0E57FABB21D5D855006C872A /* ZottmanCurl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZottmanCurl.swift; sourceTree = "<group>"; };
+		0E57FABD21D5DABC006C872A /* SeatedDumbbellCurls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatedDumbbellCurls.swift; sourceTree = "<group>"; };
+		0E57FABF21D5DB70006C872A /* InclineSupportedCurls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InclineSupportedCurls.swift; sourceTree = "<group>"; };
+		0E57FAC121D686CE006C872A /* TricepWorkoutSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TricepWorkoutSelection.swift; sourceTree = "<group>"; };
+		0E57FAC321D68CFA006C872A /* TricepWorkout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TricepWorkout1.swift; sourceTree = "<group>"; };
+		0E57FAC521D6A8E5006C872A /* TricepWorkout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TricepWorkout2.swift; sourceTree = "<group>"; };
+		0E57FAC721D6AD69006C872A /* TricepWorkout3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TricepWorkout3.swift; sourceTree = "<group>"; };
+		0E57FAC921D6AF2B006C872A /* SkullCrushers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkullCrushers.swift; sourceTree = "<group>"; };
+		0E57FACB21D6B0CC006C872A /* DumbbellKickbacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbbellKickbacks.swift; sourceTree = "<group>"; };
+		0E57FACD21D6B1A5006C872A /* CableHoldPushdowns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CableHoldPushdowns.swift; sourceTree = "<group>"; };
+		0E57FACF21D6B2D1006C872A /* Dips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dips.swift; sourceTree = "<group>"; };
+		0E57FAD121D6B46B006C872A /* InclineSkullCrushers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InclineSkullCrushers.swift; sourceTree = "<group>"; };
+		0E57FAD321D6B564006C872A /* OverheadExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverheadExtensions.swift; sourceTree = "<group>"; };
+		0E57FAD521D6B64F006C872A /* ReverseGripPushdowns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGripPushdowns.swift; sourceTree = "<group>"; };
+		0E57FAD721D6C3BC006C872A /* LegWorkoutSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegWorkoutSelection.swift; sourceTree = "<group>"; };
+		0E57FAD921D6CCD0006C872A /* TimeSensitiveLegWorkout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSensitiveLegWorkout1.swift; sourceTree = "<group>"; };
+		0E57FADB21D6CE1C006C872A /* TimeSensitiveLegWorkout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSensitiveLegWorkout2.swift; sourceTree = "<group>"; };
+		0E57FADD21D6D084006C872A /* TimeSensitiveLegWorkout3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSensitiveLegWorkout3.swift; sourceTree = "<group>"; };
+		0E57FADF21D6D45B006C872A /* LegWorkout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegWorkout1.swift; sourceTree = "<group>"; };
+		0E57FAE121D6D628006C872A /* LegWorkout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegWorkout2.swift; sourceTree = "<group>"; };
+		0E57FAE321D6D846006C872A /* LegWorkout3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegWorkout3.swift; sourceTree = "<group>"; };
+		0E57FAE521D6DB3D006C872A /* LegWorkout4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegWorkout4.swift; sourceTree = "<group>"; };
+		0E57FAE721D6DDD6006C872A /* LegPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegPress.swift; sourceTree = "<group>"; };
+		0E57FAE921D6DEF3006C872A /* LegExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegExtensions.swift; sourceTree = "<group>"; };
+		0E57FAEB21D6DFED006C872A /* LegCurl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegCurl.swift; sourceTree = "<group>"; };
+		0E57FAED21D6E181006C872A /* DumbbellWalkingLunges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbbellWalkingLunges.swift; sourceTree = "<group>"; };
+		0E57FAEF21D6E303006C872A /* FrontSquat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontSquat.swift; sourceTree = "<group>"; };
+		0E57FAF121D6E440006C872A /* DumbbellRomanianDeadlifts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbbellRomanianDeadlifts.swift; sourceTree = "<group>"; };
+		0E57FAF321D6E569006C872A /* RearFootElevatedLunge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RearFootElevatedLunge.swift; sourceTree = "<group>"; };
+		0E57FAF521D6FF53006C872A /* HackSquat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackSquat.swift; sourceTree = "<group>"; };
+		0E57FAF721D7004D006C872A /* StiffLeggedDeadlifts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StiffLeggedDeadlifts.swift; sourceTree = "<group>"; };
+		0E57FAF921D701E9006C872A /* CalfPressonLegPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalfPressonLegPress.swift; sourceTree = "<group>"; };
+		0E57FAFB21D703A9006C872A /* SeatedCalfRaises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatedCalfRaises.swift; sourceTree = "<group>"; };
+		0E57FAFD21D7100C006C872A /* AbWorkout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbWorkout1.swift; sourceTree = "<group>"; };
+		0E57FAFF21D82EC5006C872A /* AbWorkout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbWorkout2.swift; sourceTree = "<group>"; };
+		0E57FB0121D82F93006C872A /* AbWorkout3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbWorkout3.swift; sourceTree = "<group>"; };
+		0E57FB0321D83357006C872A /* AbWorkout4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbWorkout4.swift; sourceTree = "<group>"; };
+		0E57FB0521D85F70006C872A /* FeetLiftedCrunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeetLiftedCrunch.swift; sourceTree = "<group>"; };
+		0E57FB0721D863A7006C872A /* LegsStraightUpCrunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegsStraightUpCrunch.swift; sourceTree = "<group>"; };
+		0E57FB0921D86503006C872A /* Lying Flat Leg Lifts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lying Flat Leg Lifts.swift"; sourceTree = "<group>"; };
+		0E57FB0B21D866F5006C872A /* WindsheildWippers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindsheildWippers.swift; sourceTree = "<group>"; };
+		0E57FB0D21D868A5006C872A /* VUps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VUps.swift; sourceTree = "<group>"; };
+		0E57FB0F21D869FE006C872A /* HealTouches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealTouches.swift; sourceTree = "<group>"; };
+		0E57FB1121D86B1B006C872A /* MountainClimbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainClimbers.swift; sourceTree = "<group>"; };
+		0E57FB1321D86C6A006C872A /* HangingLegRaises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangingLegRaises.swift; sourceTree = "<group>"; };
+		0E57FB1521D872C7006C872A /* Plank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plank.swift; sourceTree = "<group>"; };
+		0E57FB1721D873DF006C872A /* ElbowToKneeTwist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElbowToKneeTwist.swift; sourceTree = "<group>"; };
+		0E57FB1921D8750A006C872A /* RussianTwists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianTwists.swift; sourceTree = "<group>"; };
+		0E57FB1B21D876D8006C872A /* CableCrunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CableCrunch.swift; sourceTree = "<group>"; };
+		0E5BD7B821D46CD800985774 /* Pushups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pushups.swift; sourceTree = "<group>"; };
+		0E5BD7BC21D4704200985774 /* DeclineBenchPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeclineBenchPress.swift; sourceTree = "<group>"; };
+		0E5BD7BE21D471C900985774 /* LandminePress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandminePress.swift; sourceTree = "<group>"; };
+		0E5BD7C021D477AA00985774 /* Pullups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pullups.swift; sourceTree = "<group>"; };
+		0E5BD7C221D4794300985774 /* BentOverDumbbellRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentOverDumbbellRows.swift; sourceTree = "<group>"; };
+		0E5BD7C421D47AB800985774 /* LatPullDowns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatPullDowns.swift; sourceTree = "<group>"; };
+		0E5BD7C621D47C4100985774 /* CableLowRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CableLowRows.swift; sourceTree = "<group>"; };
+		0E5BD7C821D47D5200985774 /* PushupsBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushupsBack.swift; sourceTree = "<group>"; };
+		0E5BD7CA21D4812D00985774 /* TBarRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBarRows.swift; sourceTree = "<group>"; };
+		0E5BD7CC21D481E900985774 /* BehindTheNeckLatPullDowns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehindTheNeckLatPullDowns.swift; sourceTree = "<group>"; };
+		0E5BD7CE21D4839500985774 /* BentOverBarbellRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentOverBarbellRows.swift; sourceTree = "<group>"; };
+		0E5BD7D021D4853400985774 /* OneArmDumbbellRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneArmDumbbellRows.swift; sourceTree = "<group>"; };
+		0E5BD7D221D4878000985774 /* CableStraightArmPullDowns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CableStraightArmPullDowns.swift; sourceTree = "<group>"; };
+		0E5BD7D421D489AD00985774 /* Deadlifts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deadlifts.swift; sourceTree = "<group>"; };
+		0E5BD7D621D48A8200985774 /* BehindTheNeckLatPullDownMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehindTheNeckLatPullDownMachine.swift; sourceTree = "<group>"; };
+		0E5BD7D821D48BE000985774 /* LeverageHighRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeverageHighRow.swift; sourceTree = "<group>"; };
+		0E5BD7DA21D48C9700985774 /* BackExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackExtensions.swift; sourceTree = "<group>"; };
+		0E5BD7DC21D48DA200985774 /* ChestSupportedDumbbellRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestSupportedDumbbellRows.swift; sourceTree = "<group>"; };
+		0E5BD7DE21D48E9E00985774 /* RenegadeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenegadeRow.swift; sourceTree = "<group>"; };
+		0E5BD7E021D547A100985774 /* DumbbellShoulderPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbbellShoulderPress.swift; sourceTree = "<group>"; };
+		0E5BD7E221D5548100985774 /* CableRearDeltFlyes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CableRearDeltFlyes.swift; sourceTree = "<group>"; };
+		0E5BD7E421D5564300985774 /* PlateFrontRaises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlateFrontRaises.swift; sourceTree = "<group>"; };
+		0E5BD7E621D557B800985774 /* StandingLateralRaises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingLateralRaises.swift; sourceTree = "<group>"; };
+		0E5BD7E821D5599900985774 /* UprightBarbellRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UprightBarbellRow.swift; sourceTree = "<group>"; };
+		0E5BD7EA21D55BBE00985774 /* StandingOverheadPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingOverheadPress.swift; sourceTree = "<group>"; };
+		0E5BD7EC21D5791500985774 /* SeatedDumbbelllateralRaises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatedDumbbelllateralRaises.swift; sourceTree = "<group>"; };
+		0E5BD7EE21D57C9C00985774 /* BentoverReverseDumbbellRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BentoverReverseDumbbellRows.swift; sourceTree = "<group>"; };
+		0E5BD7F021D57DBA00985774 /* CableUprightRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CableUprightRow.swift; sourceTree = "<group>"; };
+		0E5BD7F221D57F1E00985774 /* FrontCableRopeRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontCableRopeRows.swift; sourceTree = "<group>"; };
+		0E5BD7F421D5801300985774 /* RearDeltFlyes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RearDeltFlyes.swift; sourceTree = "<group>"; };
+		0E5BD7F621D583EF00985774 /* HangCleans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangCleans.swift; sourceTree = "<group>"; };
+		0E5BD7F821D5852100985774 /* ArnaldPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArnaldPress.swift; sourceTree = "<group>"; };
+		0E5BD7FA21D5862E00985774 /* SeatedBarbellPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatedBarbellPress.swift; sourceTree = "<group>"; };
+		0E5BD7FC21D591A700985774 /* BicepWorkoutSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicepWorkoutSelection.swift; sourceTree = "<group>"; };
+		0E5BD7FE21D594ED00985774 /* BicepWorkout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicepWorkout1.swift; sourceTree = "<group>"; };
+		0E5BD80021D5B3EB00985774 /* BicepWorkout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicepWorkout2.swift; sourceTree = "<group>"; };
+		0E5BD80221D5B6F300985774 /* BicepWorkout3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BicepWorkout3.swift; sourceTree = "<group>"; };
+		0EADFCB321C6DEAD00527E41 /* TimeSensitiveChestWorkout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSensitiveChestWorkout1.swift; sourceTree = "<group>"; };
+		0EADFCB721C750FE00527E41 /* TimeSelectiveChestWorkout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSelectiveChestWorkout2.swift; sourceTree = "<group>"; };
+		0EB6043C21CDCCC300E2C569 /* ShouldersSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShouldersSelection.swift; sourceTree = "<group>"; };
+		0EB6043E21CDD5C300E2C569 /* TimeSensitveSHoudlerWorkout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSensitveSHoudlerWorkout1.swift; sourceTree = "<group>"; };
+		0EB6044021CDDE0800E2C569 /* TImeSensetiveShoulderWorkout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImeSensetiveShoulderWorkout2.swift; sourceTree = "<group>"; };
+		0EB6044221CDE0B100E2C569 /* TimeSensetiveShoulderWorkout3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSensetiveShoulderWorkout3.swift; sourceTree = "<group>"; };
+		0EB6044421CDE1B200E2C569 /* FullShoulderWorkout1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullShoulderWorkout1.swift; sourceTree = "<group>"; };
+		0EB6044621CDE3DE00E2C569 /* FullShoulderWorkout2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullShoulderWorkout2.swift; sourceTree = "<group>"; };
+		0EB6044821CDE86000E2C569 /* FullShoulderWorkout3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullShoulderWorkout3.swift; sourceTree = "<group>"; };
+		0EB6044A21CDEB8700E2C569 /* FullShoulderWorkout4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullShoulderWorkout4.swift; sourceTree = "<group>"; };
+		0EC1BC8921CED2EE00368FED /* BenchPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchPress.swift; sourceTree = "<group>"; };
+		0EC1BC8B21CF1FDE00368FED /* DumbbellChestPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumbbellChestPress.swift; sourceTree = "<group>"; };
+		0EC1BC8D21CF232E00368FED /* InclineDumbbellPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InclineDumbbellPress.swift; sourceTree = "<group>"; };
+		0EC1BC8F21CF250D00368FED /* CloseGripDumbbellPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseGripDumbbellPress.swift; sourceTree = "<group>"; };
+		0EC1BC9121CF287600368FED /* DeclineDumbbellPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeclineDumbbellPress.swift; sourceTree = "<group>"; };
+		0EC1BC9321CF2A5A00368FED /* PecDeckFlyes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PecDeckFlyes.swift; sourceTree = "<group>"; };
+		0EC1BC9521CF2BC200368FED /* LowCableFlyes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowCableFlyes.swift; sourceTree = "<group>"; };
+		0EC1BC9721CF2F1B00368FED /* FlatDumbbellFlyes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatDumbbellFlyes.swift; sourceTree = "<group>"; };
+		0EC1BC9921CF31E500368FED /* ChestDips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestDips.swift; sourceTree = "<group>"; };
+		0EC1BC9B21CF340600368FED /* FlatBenchCableFlyes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatBenchCableFlyes.swift; sourceTree = "<group>"; };
+		0EC1BC9D21CF35CA00368FED /* InclineBenchPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InclineBenchPress.swift; sourceTree = "<group>"; };
+		0EF52466D99CE714AA222EAB /* Pods-LaVida21.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaVida21.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaVida21/Pods-LaVida21.release.xcconfig"; sourceTree = "<group>"; };
+		0EF898CC21C4A9C200D31402 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EF8995021C4B3CE00D31402 /* WorkoutSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WorkoutSelection.swift; path = ../WorkoutSelection.swift; sourceTree = "<group>"; };
+		0EF8995821C5C67500D31402 /* ChestWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestWorkout.swift; sourceTree = "<group>"; };
+		4B02D71A21DC0C650069F8C9 /* LaVida.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LaVida.xcdatamodel; sourceTree = "<group>"; };
+		4BAF5C2321E801FE004788F3 /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = common.swift; path = "/Users/bqs/Desktop/LaVida - Production/LaVida21-almostDone/LaVida21/common.swift"; sourceTree = "<absolute>"; };
+		EB42F3956918053222269E7E /* Pods-LaVida21.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaVida21.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaVida21/Pods-LaVida21.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +323,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20703CAA650F27490A3174BC /* Pods_LaVida21.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +335,8 @@
 			children = (
 				0E39A36321C3696A00D97C09 /* LaVida21 */,
 				0E39A36221C3696A00D97C09 /* Products */,
+				E848DE80CC4FF4F79E3F5D79 /* Pods */,
+				1953C9DF55E979EE76D0B74D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +351,176 @@
 		0E39A36321C3696A00D97C09 /* LaVida21 */ = {
 			isa = PBXGroup;
 			children = (
+				0E57FAFD21D7100C006C872A /* AbWorkout1.swift */,
+				0E57FAFF21D82EC5006C872A /* AbWorkout2.swift */,
+				0E57FB0121D82F93006C872A /* AbWorkout3.swift */,
+				0E57FB0321D83357006C872A /* AbWorkout4.swift */,
+				0E0DDE8221CB390F00DE08C7 /* AllInclusiveChesatWorkout5.swift */,
+				0E0DDE7A21CB2B7900DE08C7 /* AllInclusiveChesrWorkout1.swift */,
+				0E0DDE7C21CB2FA000DE08C7 /* AllInclusiveChestWorkout2.swift */,
+				0E0DDE8021CB36EF00DE08C7 /* AllInclusiveChestWorkout4.swift */,
+				0E0DDE8421CB40DF00DE08C7 /* AllInclusiveChestWorkout6.swift */,
+				0E0DDE7E21CB33E300DE08C7 /* AllInclusiveChestWorkouts3.swift */,
 				0E39A36421C3696A00D97C09 /* AppDelegate.swift */,
-				0E39A36621C3696B00D97C09 /* ViewController.swift */,
-				0E39A36821C3696B00D97C09 /* Main.storyboard */,
+				0E5BD7F821D5852100985774 /* ArnaldPress.swift */,
 				0E39A36B21C3696C00D97C09 /* Assets.xcassets */,
-				0E39A36D21C3696C00D97C09 /* LaunchScreen.storyboard */,
+				0E5BD7DA21D48C9700985774 /* BackExtensions.swift */,
+				0E0DDE8621CC1F2D00DE08C7 /* BackWorkoutSelection.swift */,
+				0E5BD7D621D48A8200985774 /* BehindTheNeckLatPullDownMachine.swift */,
+				0E5BD7CC21D481E900985774 /* BehindTheNeckLatPullDowns.swift */,
+				0EC1BC8921CED2EE00368FED /* BenchPress.swift */,
+				0E5BD7CE21D4839500985774 /* BentOverBarbellRows.swift */,
+				0E5BD7C221D4794300985774 /* BentOverDumbbellRows.swift */,
+				0E5BD7EE21D57C9C00985774 /* BentoverReverseDumbbellRows.swift */,
+				0E5BD7FE21D594ED00985774 /* BicepWorkout1.swift */,
+				0E5BD80021D5B3EB00985774 /* BicepWorkout2.swift */,
+				0E5BD80221D5B6F300985774 /* BicepWorkout3.swift */,
+				0E57FAAD21D5CF6B006C872A /* BicepWorkout4.swift */,
+				0E5BD7FC21D591A700985774 /* BicepWorkoutSelection.swift */,
+				0E57FB1B21D876D8006C872A /* CableCrunch.swift */,
+				0E57FAB921D5D790006C872A /* CableHammerCurls.swift */,
+				0E57FACD21D6B1A5006C872A /* CableHoldPushdowns.swift */,
+				0E5BD7C621D47C4100985774 /* CableLowRows.swift */,
+				0E5BD7E221D5548100985774 /* CableRearDeltFlyes.swift */,
+				0E5BD7D221D4878000985774 /* CableStraightArmPullDowns.swift */,
+				0E5BD7F021D57DBA00985774 /* CableUprightRow.swift */,
+				0E57FAF921D701E9006C872A /* CalfPressonLegPress.swift */,
+				0EC1BC9921CF31E500368FED /* ChestDips.swift */,
+				0E42F41F21D41294004A9E0A /* ChestPressMachine.swift */,
+				0E5BD7DC21D48DA200985774 /* ChestSupportedDumbbellRows.swift */,
+				0EF8995821C5C67500D31402 /* ChestWorkout.swift */,
+				0EC1BC8F21CF250D00368FED /* CloseGripDumbbellPress.swift */,
+				4BAF5C2321E801FE004788F3 /* common.swift */,
+				0E57FAB521D5D4CA006C872A /* ConcentrationCurls.swift */,
+				0E5BD7D421D489AD00985774 /* Deadlifts.swift */,
+				0E5BD7BC21D4704200985774 /* DeclineBenchPress.swift */,
+				0EC1BC9121CF287600368FED /* DeclineDumbbellPress.swift */,
+				0E42F41D21D41045004A9E0A /* DeclineStandingCableFlyes.swift */,
+				0E57FACF21D6B2D1006C872A /* Dips.swift */,
+				0EC1BC8B21CF1FDE00368FED /* DumbbellChestPress.swift */,
+				0E57FACB21D6B0CC006C872A /* DumbbellKickbacks.swift */,
+				0E57FAF121D6E440006C872A /* DumbbellRomanianDeadlifts.swift */,
+				0E5BD7E021D547A100985774 /* DumbbellShoulderPress.swift */,
+				0E57FAED21D6E181006C872A /* DumbbellWalkingLunges.swift */,
+				0E57FB1721D873DF006C872A /* ElbowToKneeTwist.swift */,
+				0E57FAB321D5D404006C872A /* EZBarCurl.swift */,
+				0E57FB0521D85F70006C872A /* FeetLiftedCrunch.swift */,
+				0EC1BC9B21CF340600368FED /* FlatBenchCableFlyes.swift */,
+				0EC1BC9721CF2F1B00368FED /* FlatDumbbellFlyes.swift */,
+				0E5BD7F221D57F1E00985774 /* FrontCableRopeRows.swift */,
+				0E57FAEF21D6E303006C872A /* FrontSquat.swift */,
+				0E1D61AC21CC38D400CE6DB3 /* FullBackWorkout1.swift */,
+				0E1D61AE21CC3B0F00CE6DB3 /* FullBackWorkout2.swift */,
+				0E1D61B021CC3F8500CE6DB3 /* FullBackWorkout3.swift */,
+				0E1D61B221CC422700CE6DB3 /* FullBackWorkout4.swift */,
+				0E1D61B421CC454C00CE6DB3 /* FullBackWorkout5.swift */,
+				0E1D61B621CC463B00CE6DB3 /* FullBackWorkout6.swift */,
+				0EB6044421CDE1B200E2C569 /* FullShoulderWorkout1.swift */,
+				0EB6044621CDE3DE00E2C569 /* FullShoulderWorkout2.swift */,
+				0EB6044821CDE86000E2C569 /* FullShoulderWorkout3.swift */,
+				0EB6044A21CDEB8700E2C569 /* FullShoulderWorkout4.swift */,
+				0E57FAF521D6FF53006C872A /* HackSquat.swift */,
+				0E5BD7F621D583EF00985774 /* HangCleans.swift */,
+				0E57FB1321D86C6A006C872A /* HangingLegRaises.swift */,
+				0E57FB0F21D869FE006C872A /* HealTouches.swift */,
+				0EC1BC9D21CF35CA00368FED /* InclineBenchPress.swift */,
+				0E57FAAF21D5D210006C872A /* InclineCurls.swift */,
+				0EC1BC8D21CF232E00368FED /* InclineDumbbellPress.swift */,
+				0E42F42121D413F7004A9E0A /* InclineDumbbellPullovers.swift */,
+				0E57FAD121D6B46B006C872A /* InclineSkullCrushers.swift */,
+				0E57FABF21D5DB70006C872A /* InclineSupportedCurls.swift */,
 				0E39A37021C3696C00D97C09 /* Info.plist */,
+				0E5BD7BE21D471C900985774 /* LandminePress.swift */,
+				0E5BD7C421D47AB800985774 /* LatPullDowns.swift */,
+				0E39A36D21C3696C00D97C09 /* LaunchScreen.storyboard */,
+				4B02D71921DC0C650069F8C9 /* LaVida.xcdatamodeld */,
+				0E57FAEB21D6DFED006C872A /* LegCurl.swift */,
+				0E57FAE921D6DEF3006C872A /* LegExtensions.swift */,
+				0E57FAE721D6DDD6006C872A /* LegPress.swift */,
+				0E57FB0721D863A7006C872A /* LegsStraightUpCrunch.swift */,
+				0E57FADF21D6D45B006C872A /* LegWorkout1.swift */,
+				0E57FAE121D6D628006C872A /* LegWorkout2.swift */,
+				0E57FAE321D6D846006C872A /* LegWorkout3.swift */,
+				0E57FAE521D6DB3D006C872A /* LegWorkout4.swift */,
+				0E57FAD721D6C3BC006C872A /* LegWorkoutSelection.swift */,
+				0E5BD7D821D48BE000985774 /* LeverageHighRow.swift */,
+				0EC1BC9521CF2BC200368FED /* LowCableFlyes.swift */,
+				0E0DDE7421CB220300DE08C7 /* LowerChestWorkout1.swift */,
+				0E0DDE7621CB259200DE08C7 /* LowerChestWorkout2.swift */,
+				0E0DDE7821CB286F00DE08C7 /* LowerChestWorkout3.swift */,
+				0E57FB0921D86503006C872A /* Lying Flat Leg Lifts.swift */,
+				0E39A36821C3696B00D97C09 /* Main.storyboard */,
+				0E57FB1121D86B1B006C872A /* MountainClimbers.swift */,
+				0E5BD7D021D4853400985774 /* OneArmDumbbellRows.swift */,
+				0E57FAB121D5D2F4006C872A /* OverheadCableCurls.swift */,
+				0E57FAD321D6B564006C872A /* OverheadExtensions.swift */,
+				0EC1BC9321CF2A5A00368FED /* PecDeckFlyes.swift */,
+				0E57FB1521D872C7006C872A /* Plank.swift */,
+				0E5BD7E421D5564300985774 /* PlateFrontRaises.swift */,
+				0E57FAB721D5D5BC006C872A /* PreacherCurls.swift */,
+				0E5BD7C021D477AA00985774 /* Pullups.swift */,
+				0E5BD7B821D46CD800985774 /* Pushups.swift */,
+				0E5BD7C821D47D5200985774 /* PushupsBack.swift */,
+				0E5BD7F421D5801300985774 /* RearDeltFlyes.swift */,
+				0E57FAF321D6E569006C872A /* RearFootElevatedLunge.swift */,
+				0E5BD7DE21D48E9E00985774 /* RenegadeRow.swift */,
+				0E57FAD521D6B64F006C872A /* ReverseGripPushdowns.swift */,
+				0E57FB1921D8750A006C872A /* RussianTwists.swift */,
+				0E5BD7FA21D5862E00985774 /* SeatedBarbellPress.swift */,
+				0E57FAFB21D703A9006C872A /* SeatedCalfRaises.swift */,
+				0E57FABD21D5DABC006C872A /* SeatedDumbbellCurls.swift */,
+				0E5BD7EC21D5791500985774 /* SeatedDumbbelllateralRaises.swift */,
+				0EB6043C21CDCCC300E2C569 /* ShouldersSelection.swift */,
+				0E57FAC921D6AF2B006C872A /* SkullCrushers.swift */,
+				0E5BD7E621D557B800985774 /* StandingLateralRaises.swift */,
+				0E5BD7EA21D55BBE00985774 /* StandingOverheadPress.swift */,
+				0E57FAF721D7004D006C872A /* StiffLeggedDeadlifts.swift */,
+				0E5BD7CA21D4812D00985774 /* TBarRows.swift */,
+				0EADFCB721C750FE00527E41 /* TimeSelectiveChestWorkout2.swift */,
+				0E1D61A621CC292000CE6DB3 /* TimeSensetiveBackWorkout1.swift */,
+				0E1D61AA21CC32F600CE6DB3 /* TimeSensetiveBackWorkout3.swift */,
+				0E1D61A821CC2FEC00CE6DB3 /* TimeSensetiveBackWorkouts.swift */,
+				0E0DDE6A21CACC6C00DE08C7 /* TimeSensetiveChestWorkout3.swift */,
+				0EB6044021CDDE0800E2C569 /* TImeSensetiveShoulderWorkout2.swift */,
+				0EB6044221CDE0B100E2C569 /* TimeSensetiveShoulderWorkout3.swift */,
+				0EADFCB321C6DEAD00527E41 /* TimeSensitiveChestWorkout1.swift */,
+				0E57FAD921D6CCD0006C872A /* TimeSensitiveLegWorkout1.swift */,
+				0E57FADB21D6CE1C006C872A /* TimeSensitiveLegWorkout2.swift */,
+				0E57FADD21D6D084006C872A /* TimeSensitiveLegWorkout3.swift */,
+				0E0DDE6C21CACEC900DE08C7 /* TimeSensitiveWorkout4.swift */,
+				0EB6043E21CDD5C300E2C569 /* TimeSensitveSHoudlerWorkout1.swift */,
+				0E57FAC321D68CFA006C872A /* TricepWorkout1.swift */,
+				0E57FAC521D6A8E5006C872A /* TricepWorkout2.swift */,
+				0E57FAC721D6AD69006C872A /* TricepWorkout3.swift */,
+				0E57FAC121D686CE006C872A /* TricepWorkoutSelection.swift */,
+				0E0DDE6E21CAD32000DE08C7 /* UpperChestWorkout1.swift */,
+				0E0DDE7021CADC7B00DE08C7 /* UpperChestWorkout2.swift */,
+				0E0DDE7221CADF8F00DE08C7 /* UpperChestWorkout3.swift */,
+				0E5BD7E821D5599900985774 /* UprightBarbellRow.swift */,
+				0EF898CC21C4A9C200D31402 /* ViewController.swift */,
+				0E57FB0D21D868A5006C872A /* VUps.swift */,
+				0E57FB0B21D866F5006C872A /* WindsheildWippers.swift */,
+				0EF8995021C4B3CE00D31402 /* WorkoutSelection.swift */,
+				0E57FABB21D5D855006C872A /* ZottmanCurl.swift */,
 			);
 			path = LaVida21;
+			sourceTree = "<group>";
+		};
+		1953C9DF55E979EE76D0B74D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				050A4DEBB6F389A0F6763D68 /* Pods_LaVida21.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E848DE80CC4FF4F79E3F5D79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB42F3956918053222269E7E /* Pods-LaVida21.debug.xcconfig */,
+				0EF52466D99CE714AA222EAB /* Pods-LaVida21.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +530,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E39A37321C3696C00D97C09 /* Build configuration list for PBXNativeTarget "LaVida21" */;
 			buildPhases = (
+				FECE3965F86E73CF7E398DA7 /* [CP] Check Pods Manifest.lock */,
 				0E39A35D21C3696A00D97C09 /* Sources */,
 				0E39A35E21C3696A00D97C09 /* Frameworks */,
 				0E39A35F21C3696A00D97C09 /* Resources */,
@@ -130,13 +590,183 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FECE3965F86E73CF7E398DA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LaVida21-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E39A35D21C3696A00D97C09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E39A36721C3696B00D97C09 /* ViewController.swift in Sources */,
+				0E57FACA21D6AF2B006C872A /* SkullCrushers.swift in Sources */,
+				0EF898CD21C4A9C200D31402 /* ViewController.swift in Sources */,
+				0E5BD7E921D5599900985774 /* UprightBarbellRow.swift in Sources */,
+				0E5BD7FD21D591A700985774 /* BicepWorkoutSelection.swift in Sources */,
+				0EB6044121CDDE0800E2C569 /* TImeSensetiveShoulderWorkout2.swift in Sources */,
+				0E5BD7C521D47AB800985774 /* LatPullDowns.swift in Sources */,
+				0E5BD7FF21D594ED00985774 /* BicepWorkout1.swift in Sources */,
+				0E0DDE7521CB220300DE08C7 /* LowerChestWorkout1.swift in Sources */,
+				0E57FAF021D6E303006C872A /* FrontSquat.swift in Sources */,
+				0E5BD7D521D489AD00985774 /* Deadlifts.swift in Sources */,
+				0EC1BC9421CF2A5A00368FED /* PecDeckFlyes.swift in Sources */,
+				0E57FAF821D7004D006C872A /* StiffLeggedDeadlifts.swift in Sources */,
+				0EC1BC9021CF250D00368FED /* CloseGripDumbbellPress.swift in Sources */,
+				0E5BD7C121D477AA00985774 /* Pullups.swift in Sources */,
+				0E57FABA21D5D790006C872A /* CableHammerCurls.swift in Sources */,
+				0E5BD7D121D4853400985774 /* OneArmDumbbellRows.swift in Sources */,
+				0E57FAEA21D6DEF3006C872A /* LegExtensions.swift in Sources */,
+				0E57FB0421D83357006C872A /* AbWorkout4.swift in Sources */,
+				0E5BD7B921D46CD800985774 /* Pushups.swift in Sources */,
+				0E5BD7C721D47C4100985774 /* CableLowRows.swift in Sources */,
+				0E5BD80121D5B3EB00985774 /* BicepWorkout2.swift in Sources */,
+				0E57FAD221D6B46B006C872A /* InclineSkullCrushers.swift in Sources */,
+				0E5BD7E321D5548100985774 /* CableRearDeltFlyes.swift in Sources */,
+				0E5BD80321D5B6F300985774 /* BicepWorkout3.swift in Sources */,
+				0E57FAB421D5D404006C872A /* EZBarCurl.swift in Sources */,
+				0E57FAEE21D6E181006C872A /* DumbbellWalkingLunges.swift in Sources */,
+				0EC1BC9C21CF340600368FED /* FlatBenchCableFlyes.swift in Sources */,
+				0E5BD7BD21D4704200985774 /* DeclineBenchPress.swift in Sources */,
+				0E57FADC21D6CE1C006C872A /* TimeSensitiveLegWorkout2.swift in Sources */,
+				0EC1BC9A21CF31E500368FED /* ChestDips.swift in Sources */,
+				0E57FB0021D82EC5006C872A /* AbWorkout2.swift in Sources */,
+				0E57FAE821D6DDD6006C872A /* LegPress.swift in Sources */,
+				0E57FB1C21D876D8006C872A /* CableCrunch.swift in Sources */,
+				0E5BD7D721D48A8200985774 /* BehindTheNeckLatPullDownMachine.swift in Sources */,
+				0E57FAB221D5D2F4006C872A /* OverheadCableCurls.swift in Sources */,
+				0E57FAC021D5DB70006C872A /* InclineSupportedCurls.swift in Sources */,
+				0E1D61AF21CC3B0F00CE6DB3 /* FullBackWorkout2.swift in Sources */,
+				0EC1BC9621CF2BC200368FED /* LowCableFlyes.swift in Sources */,
+				4B02D71B21DC0C650069F8C9 /* LaVida.xcdatamodeld in Sources */,
+				0E57FAB621D5D4CA006C872A /* ConcentrationCurls.swift in Sources */,
+				0E57FB1621D872C7006C872A /* Plank.swift in Sources */,
+				0EC1BC9E21CF35CA00368FED /* InclineBenchPress.swift in Sources */,
+				0E0DDE7121CADC7B00DE08C7 /* UpperChestWorkout2.swift in Sources */,
+				0E57FAE621D6DB3E006C872A /* LegWorkout4.swift in Sources */,
+				0E57FB0A21D86503006C872A /* Lying Flat Leg Lifts.swift in Sources */,
+				0E1D61B721CC463B00CE6DB3 /* FullBackWorkout6.swift in Sources */,
+				0E42F41E21D41045004A9E0A /* DeclineStandingCableFlyes.swift in Sources */,
+				0E57FAFC21D703A9006C872A /* SeatedCalfRaises.swift in Sources */,
+				0E57FB0821D863A7006C872A /* LegsStraightUpCrunch.swift in Sources */,
+				0E57FAEC21D6DFED006C872A /* LegCurl.swift in Sources */,
+				0E0DDE6D21CACEC900DE08C7 /* TimeSensitiveWorkout4.swift in Sources */,
+				0E0DDE8321CB390F00DE08C7 /* AllInclusiveChesatWorkout5.swift in Sources */,
+				0E5BD7FB21D5862E00985774 /* SeatedBarbellPress.swift in Sources */,
+				0E57FAC221D686CE006C872A /* TricepWorkoutSelection.swift in Sources */,
+				0E57FB0221D82F93006C872A /* AbWorkout3.swift in Sources */,
+				0EF8995121C4B3CE00D31402 /* WorkoutSelection.swift in Sources */,
+				0E57FAC621D6A8E5006C872A /* TricepWorkout2.swift in Sources */,
+				0E57FAD021D6B2D1006C872A /* Dips.swift in Sources */,
+				0E5BD7F721D583EF00985774 /* HangCleans.swift in Sources */,
+				0E57FAE021D6D45B006C872A /* LegWorkout1.swift in Sources */,
+				0E0DDE6B21CACC6C00DE08C7 /* TimeSensetiveChestWorkout3.swift in Sources */,
+				0EC1BC9821CF2F1B00368FED /* FlatDumbbellFlyes.swift in Sources */,
+				0E57FB1821D873DF006C872A /* ElbowToKneeTwist.swift in Sources */,
+				0E0DDE7B21CB2B7900DE08C7 /* AllInclusiveChesrWorkout1.swift in Sources */,
+				0E57FADE21D6D084006C872A /* TimeSensitiveLegWorkout3.swift in Sources */,
+				0E5BD7D921D48BE000985774 /* LeverageHighRow.swift in Sources */,
+				0E5BD7DD21D48DA200985774 /* ChestSupportedDumbbellRows.swift in Sources */,
+				0EB6044721CDE3DE00E2C569 /* FullShoulderWorkout2.swift in Sources */,
+				0EC1BC9221CF287600368FED /* DeclineDumbbellPress.swift in Sources */,
+				0E57FAF221D6E440006C872A /* DumbbellRomanianDeadlifts.swift in Sources */,
+				0E57FACC21D6B0CC006C872A /* DumbbellKickbacks.swift in Sources */,
+				0E5BD7ED21D5791500985774 /* SeatedDumbbelllateralRaises.swift in Sources */,
+				0E5BD7F121D57DBA00985774 /* CableUprightRow.swift in Sources */,
+				0E1D61A721CC292000CE6DB3 /* TimeSensetiveBackWorkout1.swift in Sources */,
+				0E5BD7CD21D481E900985774 /* BehindTheNeckLatPullDowns.swift in Sources */,
+				0E42F42221D413F7004A9E0A /* InclineDumbbellPullovers.swift in Sources */,
+				0E57FAD421D6B564006C872A /* OverheadExtensions.swift in Sources */,
+				4BAF5C2421E801FE004788F3 /* common.swift in Sources */,
+				0EB6044B21CDEB8700E2C569 /* FullShoulderWorkout4.swift in Sources */,
+				0EB6043F21CDD5C300E2C569 /* TimeSensitveSHoudlerWorkout1.swift in Sources */,
+				0EC1BC8A21CED2EE00368FED /* BenchPress.swift in Sources */,
+				0EB6044321CDE0B100E2C569 /* TimeSensetiveShoulderWorkout3.swift in Sources */,
+				0E5BD7F921D5852100985774 /* ArnaldPress.swift in Sources */,
 				0E39A36521C3696B00D97C09 /* AppDelegate.swift in Sources */,
+				0E0DDE8521CB40DF00DE08C7 /* AllInclusiveChestWorkout6.swift in Sources */,
+				0E0DDE6F21CAD32000DE08C7 /* UpperChestWorkout1.swift in Sources */,
+				0E57FB1221D86B1B006C872A /* MountainClimbers.swift in Sources */,
+				0E57FAAE21D5CF6B006C872A /* BicepWorkout4.swift in Sources */,
+				0E5BD7C321D4794300985774 /* BentOverDumbbellRows.swift in Sources */,
+				0E0DDE8121CB36EF00DE08C7 /* AllInclusiveChestWorkout4.swift in Sources */,
+				0E5BD7EB21D55BBE00985774 /* StandingOverheadPress.swift in Sources */,
+				0EB6043D21CDCCC300E2C569 /* ShouldersSelection.swift in Sources */,
+				0E0DDE7D21CB2FA000DE08C7 /* AllInclusiveChestWorkout2.swift in Sources */,
+				0E57FAD821D6C3BC006C872A /* LegWorkoutSelection.swift in Sources */,
+				0EB6044521CDE1B200E2C569 /* FullShoulderWorkout1.swift in Sources */,
+				0E42F42021D41294004A9E0A /* ChestPressMachine.swift in Sources */,
+				0E57FABE21D5DABC006C872A /* SeatedDumbbellCurls.swift in Sources */,
+				0E1D61AD21CC38D400CE6DB3 /* FullBackWorkout1.swift in Sources */,
+				0E5BD7E121D547A100985774 /* DumbbellShoulderPress.swift in Sources */,
+				0E5BD7F321D57F1E00985774 /* FrontCableRopeRows.swift in Sources */,
+				0E57FB1A21D8750A006C872A /* RussianTwists.swift in Sources */,
+				0E57FAD621D6B64F006C872A /* ReverseGripPushdowns.swift in Sources */,
+				0E1D61A921CC2FEC00CE6DB3 /* TimeSensetiveBackWorkouts.swift in Sources */,
+				0E57FB0621D85F70006C872A /* FeetLiftedCrunch.swift in Sources */,
+				0E5BD7E521D5564300985774 /* PlateFrontRaises.swift in Sources */,
+				0E57FB0C21D866F5006C872A /* WindsheildWippers.swift in Sources */,
+				0E0DDE7321CADF8F00DE08C7 /* UpperChestWorkout3.swift in Sources */,
+				0EADFCB421C6DEAD00527E41 /* TimeSensitiveChestWorkout1.swift in Sources */,
+				0E0DDE7F21CB33E300DE08C7 /* AllInclusiveChestWorkouts3.swift in Sources */,
+				0EB6044921CDE86000E2C569 /* FullShoulderWorkout3.swift in Sources */,
+				0E5BD7DB21D48C9700985774 /* BackExtensions.swift in Sources */,
+				0E5BD7CB21D4812D00985774 /* TBarRows.swift in Sources */,
+				0EC1BC8C21CF1FDE00368FED /* DumbbellChestPress.swift in Sources */,
+				0E5BD7BF21D471C900985774 /* LandminePress.swift in Sources */,
+				0EADFCB821C750FE00527E41 /* TimeSelectiveChestWorkout2.swift in Sources */,
+				0E57FAE421D6D846006C872A /* LegWorkout3.swift in Sources */,
+				0E0DDE8721CC1F2D00DE08C7 /* BackWorkoutSelection.swift in Sources */,
+				0E1D61B121CC3F8500CE6DB3 /* FullBackWorkout3.swift in Sources */,
+				0E5BD7D321D4878000985774 /* CableStraightArmPullDowns.swift in Sources */,
+				0E5BD7EF21D57C9C00985774 /* BentoverReverseDumbbellRows.swift in Sources */,
+				0E57FAB021D5D210006C872A /* InclineCurls.swift in Sources */,
+				0E5BD7DF21D48E9E00985774 /* RenegadeRow.swift in Sources */,
+				0E57FB0E21D868A5006C872A /* VUps.swift in Sources */,
+				0E57FABC21D5D855006C872A /* ZottmanCurl.swift in Sources */,
+				0E0DDE7721CB259200DE08C7 /* LowerChestWorkout2.swift in Sources */,
+				0E57FAB821D5D5BC006C872A /* PreacherCurls.swift in Sources */,
+				0E57FAE221D6D628006C872A /* LegWorkout2.swift in Sources */,
+				0E1D61B321CC422700CE6DB3 /* FullBackWorkout4.swift in Sources */,
+				0E1D61B521CC454C00CE6DB3 /* FullBackWorkout5.swift in Sources */,
+				0E5BD7CF21D4839500985774 /* BentOverBarbellRows.swift in Sources */,
+				0EF8995921C5C67500D31402 /* ChestWorkout.swift in Sources */,
+				0E57FB1421D86C6A006C872A /* HangingLegRaises.swift in Sources */,
+				0E57FADA21D6CCD0006C872A /* TimeSensitiveLegWorkout1.swift in Sources */,
+				0E5BD7E721D557B800985774 /* StandingLateralRaises.swift in Sources */,
+				0E57FAFE21D7100C006C872A /* AbWorkout1.swift in Sources */,
+				0E57FAC421D68CFA006C872A /* TricepWorkout1.swift in Sources */,
+				0E1D61AB21CC32F600CE6DB3 /* TimeSensetiveBackWorkout3.swift in Sources */,
+				0E5BD7F521D5801300985774 /* RearDeltFlyes.swift in Sources */,
+				0E57FB1021D869FE006C872A /* HealTouches.swift in Sources */,
+				0E5BD7C921D47D5200985774 /* PushupsBack.swift in Sources */,
+				0E57FAFA21D701E9006C872A /* CalfPressonLegPress.swift in Sources */,
+				0E57FACE21D6B1A5006C872A /* CableHoldPushdowns.swift in Sources */,
+				0E57FAF421D6E569006C872A /* RearFootElevatedLunge.swift in Sources */,
+				0E57FAC821D6AD69006C872A /* TricepWorkout3.swift in Sources */,
+				0EC1BC8E21CF232E00368FED /* InclineDumbbellPress.swift in Sources */,
+				0E0DDE7921CB286F00DE08C7 /* LowerChestWorkout3.swift in Sources */,
+				0E57FAF621D6FF53006C872A /* HackSquat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,35 +910,45 @@
 		};
 		0E39A37421C3696C00D97C09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB42F3956918053222269E7E /* Pods-LaVida21.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BL67F4CT25;
 				INFOPLIST_FILE = LaVida21/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.LaVida21;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0E39A37521C3696C00D97C09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF52466D99CE714AA222EAB /* Pods-LaVida21.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BL67F4CT25;
 				INFOPLIST_FILE = LaVida21/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = test.LaVida21;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -334,6 +974,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B02D71921DC0C650069F8C9 /* LaVida.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B02D71A21DC0C650069F8C9 /* LaVida.xcdatamodel */,
+			);
+			currentVersion = 4B02D71A21DC0C650069F8C9 /* LaVida.xcdatamodel */;
+			path = LaVida.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0E39A35921C3696A00D97C09 /* Project object */;
 }
