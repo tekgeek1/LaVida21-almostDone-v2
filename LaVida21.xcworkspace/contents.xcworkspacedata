@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/bqs/Desktop/LaVida - Production/LaVida21-almostDone/LaVida21/common.swift">
+   </FileRef>
+   <FileRef
+      location = "group:LaVida21.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
