@@ -28,10 +28,11 @@ class DeclineBenchPress: UIViewController {
     }
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print ("-------------  DECLINE BENCH PRESS -------------")
+
+        self.HideKeyboard()
+        
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Decline Bench Press", value: maxLiftedLabel.text!)
         
         maxLiftedLabel.text = valuetest

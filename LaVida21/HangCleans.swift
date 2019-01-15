@@ -8,6 +8,7 @@
 
 import UIKit
 import GoogleMobileAds
+import CoreData
 
 class HangCleans: UIViewController {
     
@@ -16,8 +17,22 @@ class HangCleans: UIViewController {
     @IBOutlet weak var Workout1: UIImageView!
     @IBOutlet weak var Workout2: UIImageView!
     @IBOutlet weak var Workout3: UIImageView!
+    
+    @IBOutlet weak var maxLiftedLabel: UILabel!
+    @IBOutlet weak var newMaxLiftedText: UITextField!
+    @IBAction func newWeightLiftedButton(_ sender: UIButton) {
+        maxLiftedLabel.text = newMaxLiftedText.text
+        updateDataGlobal(EntityVar: "Shoulders", ExeriseNameVar: "Hang Clean", value: maxLiftedLabel.text!)
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.HideKeyboard()
+        
+        retrieveDataGlobal(EntityVar: "Shoulders", ExeriseNameVar: "Hang Clean", value: maxLiftedLabel.text!)
+        maxLiftedLabel.text = valuetest
         
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
         addBannerViewToView(bannerView)

@@ -30,6 +30,8 @@ class Pullups: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.HideKeyboard()
+        
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Pullups", value: maxLiftedLabel.text!)
         
         maxLiftedLabel.text = valuetest

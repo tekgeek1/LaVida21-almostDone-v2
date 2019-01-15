@@ -34,6 +34,8 @@ class BenchPress: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.HideKeyboard()
+        
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Bench Press", value: maxLiftedLabel.text!)
         
         maxLiftedLabel.text = valuetest

@@ -21,6 +21,7 @@ class InclineBenchPress: UIViewController {
     
     @IBOutlet weak var maxLiftedLabel: UILabel!
     @IBOutlet weak var newMaxLiftedtext: UITextField!
+    
     @IBAction func newWeightLiftedButton(_ sender: UIButton) {
         maxLiftedLabel.text = newMaxLiftedtext.text
         updateDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Incline Bench Press", value: maxLiftedLabel.text!)
@@ -30,6 +31,8 @@ class InclineBenchPress: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.HideKeyboard()
         
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Incline Bench Press", value: maxLiftedLabel.text!)
         

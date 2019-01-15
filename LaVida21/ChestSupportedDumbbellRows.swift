@@ -8,6 +8,7 @@
 
 import UIKit
 import GoogleMobileAds
+import CoreData
 
 class ChestSupportedDumbbellRows: UIViewController {
     
@@ -17,8 +18,22 @@ class ChestSupportedDumbbellRows: UIViewController {
     @IBOutlet weak var Workout2: UIImageView!
     @IBOutlet weak var Workout3: UIImageView!
     @IBOutlet weak var Workout4: UIImageView!
+    
+    @IBOutlet weak var maxLiftedLabel: UILabel!
+    @IBOutlet weak var newMaxLiftedText: UITextField!
+    @IBAction func newWeightLiftedButton(_ sender: UIButton) {
+        maxLiftedLabel.text = newMaxLiftedText.text
+        updateDataGlobal(EntityVar: "Back", ExeriseNameVar: "Chest Supported Dumbbell Row", value: maxLiftedLabel.text!)
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.HideKeyboard()
+        retrieveDataGlobal(EntityVar: "Back", ExeriseNameVar: "Chest Supported Dumbbell Row", value: maxLiftedLabel.text!)
+        
+        maxLiftedLabel.text = valuetest
         
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
         addBannerViewToView(bannerView)

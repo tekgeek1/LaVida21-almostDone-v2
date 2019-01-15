@@ -12,7 +12,7 @@ import CoreData
 
 
 extension UIViewController {
-    
+
     func HideKeyboard() {
         let Tap:UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(DismissKeyboard))
         view.addGestureRecognizer(Tap)
@@ -28,6 +28,8 @@ class DumbbellChestPress: UIViewController {
     @IBOutlet weak var newMaxLiftText: UITextField!
     @IBOutlet weak var newMaxLiftLabel: UILabel!
     @IBOutlet weak var maxWeightLiftedLabel: UILabel!
+    
+    
     @IBAction func newWeightButon(_ sender: UIButton) {
         maxWeightLiftedLabel.text = newMaxLiftText.text
         updateDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Dumbell Chest Press", value: maxWeightLiftedLabel.text!)
@@ -55,6 +57,7 @@ class DumbbellChestPress: UIViewController {
         self.HideKeyboard()
         
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Dumbell Chest Press", value: maxWeightLiftedLabel.text!)
+        
         maxWeightLiftedLabel.text = valuetest
         
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)

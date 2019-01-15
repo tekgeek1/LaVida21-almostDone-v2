@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class CableStraightArmPullDowns: UIViewController {
 
@@ -15,9 +16,22 @@ class CableStraightArmPullDowns: UIViewController {
     @IBOutlet weak var Workout3: UIImageView!
     @IBOutlet weak var Workout4: UIImageView!
     
+    @IBOutlet weak var maxLiftedLabel: UILabel!
+    @IBOutlet weak var newMaxLiftedText: UITextField!
+    @IBAction func newWeightLiftedButton(_ sender: UIButton) {
+        maxLiftedLabel.text = newMaxLiftedText.text
+        updateDataGlobal(EntityVar: "Back", ExeriseNameVar: "Cable Straight Arm Pull Downs", value: maxLiftedLabel.text!)
+        self.dismiss(animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.HideKeyboard()
+        
+        retrieveDataGlobal(EntityVar: "Back", ExeriseNameVar: "Cable Straight Arm Pull Downs", value: maxLiftedLabel.text!)
+        
+        maxLiftedLabel.text = valuetest
         
         Workout1.layer.cornerRadius = 20
         Workout1.layer.masksToBounds = true

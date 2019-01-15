@@ -7,12 +7,29 @@
 //
 
 import UIKit
+import CoreData
+
 
 class CableLowRows: UIViewController {
 
+    @IBOutlet weak var maxLiftedLabel: UILabel!
+    @IBOutlet weak var newMaxLiftedText: UITextField!
+    
+    @IBAction func newWeightLiftedButton(_ sender: UIButton) {
+        maxLiftedLabel.text = newMaxLiftedText.text
+        updateDataGlobal(EntityVar: "Back", ExeriseNameVar: "Seated Cable Low Row", value: maxLiftedLabel.text!)
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.HideKeyboard()
 
+        retrieveDataGlobal(EntityVar: "Back", ExeriseNameVar: "Seated Cable Low Row", value: maxLiftedLabel.text!)
+        
+        maxLiftedLabel.text = valuetest
+        
         // Do any additional setup after loading the view.
     }
     

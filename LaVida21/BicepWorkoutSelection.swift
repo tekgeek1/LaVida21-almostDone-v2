@@ -8,6 +8,7 @@
 
 import UIKit
 import GoogleMobileAds
+import CoreData
 
 class BicepWorkoutSelection: UIViewController {
     

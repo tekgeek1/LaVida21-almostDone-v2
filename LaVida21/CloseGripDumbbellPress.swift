@@ -31,6 +31,8 @@ class CloseGripDumbbellPress: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.HideKeyboard()
+        
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Close Grip Dumbell Press", value: maxWeightLiftLabel.text!)
         
         maxWeightLiftLabel.text = valuetest

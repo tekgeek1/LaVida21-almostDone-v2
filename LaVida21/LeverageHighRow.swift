@@ -19,6 +19,8 @@ class LeverageHighRow: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.HideKeyboard()
+        
         Workout1.layer.cornerRadius = 20
         Workout1.layer.masksToBounds = true
         Workout1.layer.borderColor = UIColor.white.cgColor

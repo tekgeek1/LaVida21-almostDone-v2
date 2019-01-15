@@ -1,39 +1,36 @@
 //
-//  BehindTheNeckLatPullDowns.swift
+//  AllInclusiveChestWorkout6.swift
 //  LaVida21
 //
-//  Created by Nathan Simmons on 12/26/18.
+//  Created by Nathan Simmons on 12/19/18.
 //  Copyright © 2018 Nathan Simmons. All rights reserved.
 //
 
 import UIKit
-import CoreData
+import GoogleMobileAds
 
-
-class BehindTheNeckLatPullDowns: UIViewController {
-
-    @IBOutlet weak var Workout1: UIImageView!
-    @IBOutlet weak var Workout2: UIImageView!
-    @IBOutlet weak var Workout3: UIImageView!
-    @IBOutlet weak var Workout4: UIImageView!
-    @IBOutlet weak var Workout5: UIImageView!
+class AllInclusiveChestWorkout6: UIViewController {
     
-    @IBOutlet weak var maxLiftedLabel: UILabel!
-    @IBOutlet weak var newMaxLiftedText: UITextField!
-    @IBAction func newWeightLiftedButton(_ sender: UIButton) {
-        maxLiftedLabel.text = newMaxLiftedText.text
-        updateDataGlobal(EntityVar: "Back", ExeriseNameVar: "Behind Neck Lat Pulldown", value: maxLiftedLabel.text!)
-        self.dismiss(animated: true, completion: nil)
-    }
+
+    @IBOutlet weak var logo: UIImageView!
+    @IBOutlet weak var Workout1: UIButton!
+    @IBOutlet weak var Workout2: UIButton!
+    @IBOutlet weak var Workout3: UIButton!
+    @IBOutlet weak var Workout4: UIButton!
+    @IBOutlet weak var Workout5: UIButton!
+    @IBOutlet weak var workout: UIButton!
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.HideKeyboard()
         
-        retrieveDataGlobal(EntityVar: "Back", ExeriseNameVar: "Behind Neck Lat Pulldown", value: maxLiftedLabel.text!)
-        
-        maxLiftedLabel.text = valuetest
+        logo.layer.cornerRadius = 20
+        logo.layer.masksToBounds = true
+        logo.layer.borderColor = UIColor.white.cgColor
+        logo.layer.borderWidth = 3
         
         Workout1.layer.cornerRadius = 20
         Workout1.layer.masksToBounds = true
@@ -59,6 +56,11 @@ class BehindTheNeckLatPullDowns: UIViewController {
         Workout5.layer.masksToBounds = true
         Workout5.layer.borderColor = UIColor.white.cgColor
         Workout5.layer.borderWidth = 2
+        
+        workout.layer.cornerRadius = 20
+        workout.layer.masksToBounds = true
+        workout.layer.borderColor = UIColor.white.cgColor
+        workout.layer.borderWidth = 2
 
         // Do any additional setup after loading the view.
     }

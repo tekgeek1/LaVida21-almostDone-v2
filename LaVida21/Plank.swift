@@ -8,6 +8,7 @@
 
 import UIKit
 import GoogleMobileAds
+import CoreData
 
 class Plank: UIViewController {
     
@@ -16,8 +17,17 @@ class Plank: UIViewController {
     @IBOutlet weak var Workout1: UIImageView!
     @IBOutlet weak var Workout2: UIImageView!
     @IBOutlet weak var Workout3: UIImageView!
+    
+    @IBOutlet weak var maxLiftedLabel: UILabel!
+    @IBOutlet weak var newMaxLiftedLabel: UITextField!
+    @IBAction func newWeightLiftedButton(_ sender: UIButton) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.HideKeyboard()
         
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
         addBannerViewToView(bannerView)

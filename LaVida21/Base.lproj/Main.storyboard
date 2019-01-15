@@ -8851,7 +8851,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="AWs-F1-14L"/>
-                                            <action selector="newWeightButton:" destination="0Sl-47-D4j" eventType="touchUpInside" id="HwL-cJ-QJP"/>
+                                            <action selector="newWeightLiftedButton:" destination="0Sl-47-D4j" eventType="touchUpInside" id="uam-fv-Kne"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uhw-OC-yL5">
@@ -8892,10 +8892,8 @@
                         <outlet property="Workout1" destination="YNM-sb-Rd3" id="IaO-Fa-o0U"/>
                         <outlet property="Workout2" destination="7vg-3p-fMh" id="0hs-RT-aVL"/>
                         <outlet property="Workout3" destination="5jV-sR-q7H" id="gTj-EK-rs6"/>
-                        <outlet property="maxLabelLiftLabel" destination="bT6-rT-JuL" id="m2b-iK-N0e"/>
-                        <outlet property="newMaxLiftLabel" destination="1j4-6a-qbF" id="2vf-Jz-K9A"/>
-                        <outlet property="newMaxLiftText" destination="Lqa-7h-NcX" id="RmR-XW-BhX"/>
-                        <outlet property="newMaxWeightLiftLabel" destination="1j4-6a-qbF" id="BoA-yy-rpp"/>
+                        <outlet property="maxLiftedLabel" destination="1j4-6a-qbF" id="j6P-Re-WYf"/>
+                        <outlet property="newMaxLifedText" destination="Lqa-7h-NcX" id="cqm-kY-DaR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JFR-VX-lpK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -9044,6 +9042,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="qYR-KK-Mnw"/>
+                                            <action selector="newWeightLiftedButton:" destination="AM6-aY-EYi" eventType="touchUpInside" id="RtQ-Ql-xzY"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Nr-Sl-xvR">
@@ -9084,6 +9083,7 @@
                         <outlet property="Workout1" destination="UmJ-Wn-kfC" id="yJD-Va-KEE"/>
                         <outlet property="Workout2" destination="LP8-3f-2NJ" id="Xvd-80-4yb"/>
                         <outlet property="Workout3" destination="GrS-hX-4ml" id="Yut-ap-8qd"/>
+                        <outlet property="maxLiftedLabel" destination="MGO-be-BbO" id="VZ9-my-CdV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C45-gq-alU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -9407,10 +9407,7 @@
                         <outlet property="Workout1" destination="65y-ra-9H1" id="b3q-mQ-zzq"/>
                         <outlet property="Workout2" destination="rBc-jZ-Lnn" id="HtC-OM-WMM"/>
                         <outlet property="maxLiftedLabel" destination="WnN-f4-Nua" id="GWL-r6-buM"/>
-                        <outlet property="maxWeightLiftedLabel" destination="WnN-f4-Nua" id="i8e-JB-FQm"/>
-                        <outlet property="maxWeightLitedLabel" destination="WnN-f4-Nua" id="qFZ-Nd-93h"/>
                         <outlet property="newMaxLiftedText" destination="lhh-tL-hTh" id="1ZN-8Q-ZxJ"/>
-                        <outlet property="newMaxLiftedtext" destination="lhh-tL-hTh" id="cRa-0k-K7s"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hiw-jq-OjH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -10533,7 +10530,6 @@
                         <outlet property="Workout3" destination="bNf-Ah-JNj" id="4j9-gX-yAD"/>
                         <outlet property="maxLiftedLabel" destination="S3D-e9-7i1" id="fyH-HB-Hup"/>
                         <outlet property="newMaxLiftedText" destination="ykY-3t-5fV" id="F8d-7O-uVS"/>
-                        <outlet property="newWeightLiftedButton" destination="PwO-Z9-PMz" id="yWl-Vn-Dr0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cBR-Sp-dZR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -11051,6 +11047,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="SDA-02-2XO"/>
+                                            <action selector="newWeightLiftedButton:" destination="wa0-dU-WqR" eventType="touchUpInside" id="sKD-OQ-DhH"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spK-bW-hnS">
@@ -11092,6 +11089,8 @@
                         <outlet property="Workout2" destination="4IH-gv-j3s" id="bnU-Vs-tq1"/>
                         <outlet property="Workout3" destination="ots-0q-wGM" id="BtI-8w-Ct0"/>
                         <outlet property="Workout4" destination="w2b-zH-5w3" id="tSw-iY-QaZ"/>
+                        <outlet property="maxLiftedLabel" destination="bNQ-0i-VRQ" id="OkK-KW-3KY"/>
+                        <outlet property="newMaxLiftedtext" destination="p0f-0R-nzP" id="Jyg-Ac-vcn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ipv-5A-KpF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -11240,6 +11239,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="DOo-PO-IyJ"/>
+                                            <action selector="newWeightLiftedButton:" destination="L0k-23-t0C" eventType="touchUpInside" id="EDr-aZ-v9e"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rwg-Lf-2IH">
@@ -11281,6 +11281,8 @@
                         <outlet property="Workout2" destination="sU2-bw-bkF" id="iDg-Bv-VWh"/>
                         <outlet property="Workout3" destination="bYB-qi-agt" id="Qp6-hC-fLb"/>
                         <outlet property="Workout4" destination="2Hy-50-8Yq" id="eoB-Qp-jkj"/>
+                        <outlet property="maxLiftedLabel" destination="gvv-Lr-arc" id="Qzv-Xw-NaR"/>
+                        <outlet property="newMaxLiftedText" destination="tRo-jy-4FG" id="TY9-yx-RBe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sT5-7r-4KD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -11401,6 +11403,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="dVw-vH-dBV"/>
+                                            <action selector="newWeightLiftedButton:" destination="0bG-p5-dvX" eventType="touchUpInside" id="TjL-JB-Qym"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IhO-jL-GTi">
@@ -11437,6 +11440,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zrU-KP-ed3"/>
                     </view>
+                    <connections>
+                        <outlet property="maxLiftedLabel" destination="rTO-tD-odQ" id="iS7-De-oeg"/>
+                        <outlet property="newMaxLiftedText" destination="0cE-Mg-Zd5" id="va0-u8-bg8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8mC-Aw-Gxk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -11556,6 +11563,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="CNX-3q-IhL"/>
+                                            <action selector="newWeightLiftedButton:" destination="Udz-Mg-Z2a" eventType="touchUpInside" id="jdJ-37-Z8C"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80e-Ea-bwm">
@@ -11595,6 +11603,8 @@
                     <connections>
                         <outlet property="Workout1" destination="8CS-XZ-EuK" id="moH-E5-tJR"/>
                         <outlet property="Workout2" destination="Sle-h3-63U" id="0VH-Cj-ytX"/>
+                        <outlet property="maxLiftedLabel" destination="0IK-de-H1j" id="7sx-Gh-tBP"/>
+                        <outlet property="newMaxLiftedText" destination="JDR-0i-mGb" id="HP7-nh-M1g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gTk-jK-9eZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -11743,6 +11753,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="dAA-ca-gbU"/>
+                                            <action selector="newWeightLiftedButton:" destination="X7h-0S-p9B" eventType="touchUpInside" id="KEb-LB-CCq"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cxo-zE-gQI">
@@ -11784,6 +11795,8 @@
                         <outlet property="Workout2" destination="HEn-U5-4n2" id="Nqn-Uv-aMm"/>
                         <outlet property="Workout3" destination="oAC-or-75C" id="xwE-ae-YXm"/>
                         <outlet property="Workout5" destination="Lrg-jf-ndN" id="geK-7S-vBg"/>
+                        <outlet property="maxLiftedLabel" destination="mpE-73-Chs" id="EKy-3Q-sne"/>
+                        <outlet property="newMaxLiftedText" destination="Sle-Ji-pGD" id="TFR-vB-svQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y5y-7E-zk2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -11946,6 +11959,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="Scd-JH-6FL"/>
+                                            <action selector="newWeightLiftedButton:" destination="gfG-9b-yab" eventType="touchUpInside" id="YTS-Uk-Uan"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EZ6-9B-JMu">
@@ -11988,6 +12002,8 @@
                         <outlet property="Workout3" destination="K0y-v2-zFg" id="rCn-e2-cDJ"/>
                         <outlet property="Workout4" destination="PRP-X3-7E2" id="9Ic-Sg-1pt"/>
                         <outlet property="Workout5" destination="svj-AT-RRn" id="ab2-nV-fFq"/>
+                        <outlet property="maxLiftedLabel" destination="0L5-EU-Y1x" id="9pP-Mc-Hgl"/>
+                        <outlet property="newMaxLiftedText" destination="I0R-8k-7eh" id="mNw-sc-B32"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gmC-KS-OfW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -12136,6 +12152,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="E7G-4n-6ZD"/>
+                                            <action selector="newWeightLiftedButton:" destination="oPv-x5-HCt" eventType="touchUpInside" id="8Un-7b-H1o"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68N-QI-sgV">
@@ -12177,6 +12194,8 @@
                         <outlet property="Workout2" destination="yUp-KJ-UyP" id="xjH-50-HXP"/>
                         <outlet property="Workout3" destination="MEa-ZN-QrN" id="GTy-Wr-EWk"/>
                         <outlet property="Workout4" destination="g1l-h0-Elj" id="Cmu-gA-mkS"/>
+                        <outlet property="maxLiftedLabel" destination="qY6-TY-jEJ" id="dmv-ae-w5n"/>
+                        <outlet property="newMaxLiftedText" destination="JJv-H4-1yR" id="JLU-MN-IxM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1gM-Tj-1Be" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -12325,6 +12344,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="jxH-wJ-c9g"/>
+                                            <action selector="newWeightLiftedButton:" destination="8lL-Ki-CnJ" eventType="touchUpInside" id="ReW-yf-FnT"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2G-72-BMY">
@@ -12366,6 +12386,8 @@
                         <outlet property="Workout2" destination="x5x-Hh-9wT" id="Gwg-vB-2mo"/>
                         <outlet property="Workout3" destination="3U0-9h-yEP" id="aIV-vt-BpP"/>
                         <outlet property="Workout4" destination="wHS-FA-tZm" id="lSo-HK-7hl"/>
+                        <outlet property="maxLiftedLabel" destination="sSe-t3-Y95" id="vdD-sd-J4L"/>
+                        <outlet property="newMaxLiftedText" destination="Cgb-wC-9uB" id="fzg-nb-www"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Emx-bB-QVH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -12514,6 +12536,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="O7d-aE-evJ"/>
+                                            <action selector="newWeightLiftedButton:" destination="zH6-8z-szl" eventType="touchUpInside" id="uTD-3P-zAF"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vaz-LZ-o2N">
@@ -12555,6 +12578,8 @@
                         <outlet property="Workout2" destination="NP5-aW-6rN" id="Nmd-f5-TMD"/>
                         <outlet property="Workout3" destination="7tn-lG-CNU" id="vzl-EY-tB7"/>
                         <outlet property="Workout4" destination="4jd-kl-WSB" id="Tah-Vq-FAo"/>
+                        <outlet property="maxLiftedLabel" destination="Ggr-9c-yDO" id="alD-kT-PUz"/>
+                        <outlet property="newMaxLiftedText" destination="E8D-bh-48z" id="rbu-l7-oel"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L8M-8U-sJk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -12689,6 +12714,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="YO8-Do-46m"/>
+                                            <action selector="newWeightLiftedButton:" destination="AKf-CG-7dA" eventType="touchUpInside" id="XBc-Sz-7uP"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VcH-qH-pfQ">
@@ -12729,6 +12755,8 @@
                         <outlet property="Workout1" destination="4tz-Ug-ek1" id="Vyc-WF-vYY"/>
                         <outlet property="Workout2" destination="Ugr-6V-Pwj" id="S5Q-K2-8SN"/>
                         <outlet property="Workout3" destination="hIi-ZL-J3t" id="bz1-rS-Z8N"/>
+                        <outlet property="maxLiftedLabel" destination="XAF-Hk-WrI" id="JYj-Yt-DfW"/>
+                        <outlet property="newMaxLiftedText" destination="DLG-av-J4v" id="Zdk-69-aA4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="86j-kq-hzR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -12891,6 +12919,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="cJV-sx-mIp"/>
+                                            <action selector="newWeightLiftedButton:" destination="CnW-VB-xTG" eventType="touchUpInside" id="793-pN-eC7"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X3n-Eg-fwx">
@@ -12933,6 +12962,8 @@
                         <outlet property="Workout3" destination="Mcm-D4-Y2y" id="hoj-DM-Z3U"/>
                         <outlet property="Workout4" destination="Mcm-D4-Y2y" id="lht-dY-5Ks"/>
                         <outlet property="Workout5" destination="hRt-8Y-gzE" id="2uI-Rf-1A5"/>
+                        <outlet property="maxLiftedLabel" destination="jdc-e9-1lr" id="WS7-Tl-Ya6"/>
+                        <outlet property="newMaxLiftedText" destination="PFt-uD-KKb" id="jxs-Hy-8mF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpF-Be-bvI" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -13256,6 +13287,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="OON-Su-TnN"/>
+                                            <action selector="newWeightLiftedButton:" destination="uRi-xc-oUR" eventType="touchUpInside" id="vpg-9S-jJl"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Bl-2E-DGX">
@@ -13296,6 +13328,8 @@
                         <outlet property="Workout1" destination="0vN-IX-BA1" id="7YL-ev-kQe"/>
                         <outlet property="Workout2" destination="imy-nB-3pn" id="XdP-Ae-E3z"/>
                         <outlet property="Workout3" destination="yr6-Gd-seo" id="PId-Ck-ZdU"/>
+                        <outlet property="maxLiftedLabel" destination="idH-q9-G0n" id="wG6-iI-zNk"/>
+                        <outlet property="newMaxLiftedText" destination="nO3-n0-TXQ" id="Jou-cR-3IQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xwd-G2-hOa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -13444,6 +13478,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="15v-pu-zhV"/>
+                                            <action selector="newWeightLiftedButton:" destination="AZN-vA-aVH" eventType="touchUpInside" id="sdn-wC-Vhu"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDk-GX-48j">
@@ -13485,6 +13520,8 @@
                         <outlet property="Workout2" destination="Wkc-6Y-u4i" id="kzX-e1-3BH"/>
                         <outlet property="Workout3" destination="3AX-Jp-l8a" id="YWC-pY-YPL"/>
                         <outlet property="Workout4" destination="xGd-KJ-BVb" id="4o7-RH-0cs"/>
+                        <outlet property="maxLiftedLabel" destination="ovW-dE-2ua" id="a24-PB-N8y"/>
+                        <outlet property="newMaxLiftedText" destination="ZDK-EX-cGm" id="P3m-Rt-aGj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GsJ-09-ky0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -13633,6 +13670,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="gAE-UN-Ncf"/>
+                                            <action selector="newWeightLiftedButton:" destination="Fld-fh-kOc" eventType="touchUpInside" id="9Cs-D3-fAU"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbb-mi-Xlu">
@@ -13674,6 +13712,8 @@
                         <outlet property="Workout2" destination="rCV-up-imp" id="vhH-jh-GEZ"/>
                         <outlet property="Workout3" destination="bad-jQ-Yfr" id="kCY-K9-zfT"/>
                         <outlet property="Workout4" destination="Gbc-FQ-cwx" id="rnz-S1-ZKu"/>
+                        <outlet property="maxLiftedLabel" destination="d1b-ga-HSs" id="tHZ-p7-ozN"/>
+                        <outlet property="newMaxLiftedText" destination="nYs-tN-peT" id="PUJ-8t-e4s"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JNk-o3-dnj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -13808,6 +13848,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="xEs-kB-bSb"/>
+                                            <action selector="newWeightLiftedButton:" destination="Oet-LN-BLe" eventType="touchUpInside" id="Zhq-92-XbM"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CCe-er-3n8">
@@ -13848,6 +13889,8 @@
                         <outlet property="Workout1" destination="fGC-Fx-WZp" id="ajm-QE-2Nb"/>
                         <outlet property="Workout2" destination="6S2-bP-aVm" id="iFq-8P-TmI"/>
                         <outlet property="Workout3" destination="6YN-e4-ck3" id="py1-cX-NRm"/>
+                        <outlet property="maxLiftedLabel" destination="KV2-2R-gEF" id="DxJ-Km-RRM"/>
+                        <outlet property="newMaxLiftedText" destination="bDT-T0-gdZ" id="4oW-J3-eL9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6n5-GW-3r8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -13968,6 +14011,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="Kpk-oO-6h4"/>
+                                            <action selector="newWeightLiftedButton:" destination="N0r-d2-Bar" eventType="touchUpInside" id="CbS-lK-WI8"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDz-RS-z5o">
@@ -14007,6 +14051,8 @@
                     <connections>
                         <outlet property="Workout1" destination="BMh-At-VmF" id="BHt-7E-ES5"/>
                         <outlet property="Workout2" destination="E9A-3G-A3r" id="uzL-Em-a8y"/>
+                        <outlet property="maxLiftedLabel" destination="NOU-2n-uXz" id="P5y-Yt-Rm9"/>
+                        <outlet property="newMaxLiftedText" destination="D8h-IM-GYx" id="7Q4-eD-I6p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eMq-ef-abi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -14127,6 +14173,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="Cuk-Wg-ctD"/>
+                                            <action selector="newWeightLiftedButton:" destination="jLR-22-BVk" eventType="touchUpInside" id="zCD-6O-KSb"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xcf-xO-OUt">
@@ -14166,6 +14213,8 @@
                     <connections>
                         <outlet property="Workout1" destination="XmL-6B-0Je" id="R37-3E-y3O"/>
                         <outlet property="Workout2" destination="1vn-im-bUh" id="bhy-8L-kfn"/>
+                        <outlet property="maxLiftedLabel" destination="jOF-2G-tGd" id="K6m-jS-4OQ"/>
+                        <outlet property="newMaxLiftedText" destination="8xz-93-Ijv" id="pls-Rk-GVI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FxB-p8-FDM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -14300,6 +14349,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="WfP-h8-ETC"/>
+                                            <action selector="newWeightLiftedButton:" destination="SrA-Fl-wSh" eventType="touchUpInside" id="Pts-iR-F0V"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDt-9q-aNk">
@@ -14340,6 +14390,8 @@
                         <outlet property="Wokrout3" destination="32O-zu-iWJ" id="Bhe-vy-6AQ"/>
                         <outlet property="Workout1" destination="4eb-IT-4Yl" id="z5J-7O-UYp"/>
                         <outlet property="Workout2" destination="Hkb-eg-ke7" id="1iU-nK-CSv"/>
+                        <outlet property="maxLiftedLabel" destination="Y04-o7-1gv" id="sSC-XJ-caG"/>
+                        <outlet property="newMaxLiftedText" destination="T5w-we-1va" id="Zjp-I1-b4w"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JU4-iF-mOz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -14474,6 +14526,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="mkk-FY-Qnt"/>
+                                            <action selector="newWeightLiftedButton:" destination="SHk-yb-PTM" eventType="touchUpInside" id="wQG-E4-EKJ"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="920-gm-ZXK">
@@ -14514,6 +14567,8 @@
                         <outlet property="Workout1" destination="vUZ-HE-Rjr" id="LVf-UE-7pI"/>
                         <outlet property="Workout2" destination="xeP-XD-hBl" id="90f-xY-oOq"/>
                         <outlet property="Workout3" destination="XOZ-aI-bSl" id="5YN-Ma-eHM"/>
+                        <outlet property="maxLiftedLabel" destination="7le-l8-LMd" id="Lka-xr-lfu"/>
+                        <outlet property="newMaxLiftedText" destination="aIn-HM-fhJ" id="yEn-oJ-3TZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aQE-jh-nr7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -14648,6 +14703,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="6l4-um-Owo"/>
+                                            <action selector="newWeightLiftedButton:" destination="ajz-5u-lJL" eventType="touchUpInside" id="Ppm-Bh-4GY"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHX-4c-lhz">
@@ -14688,6 +14744,8 @@
                         <outlet property="Workout1" destination="JBd-Fw-f20" id="5rD-Xr-WrS"/>
                         <outlet property="Workout2" destination="xNx-8S-McX" id="6MI-Mw-l4M"/>
                         <outlet property="Workout4" destination="d3M-FS-kBd" id="p7c-Ux-Ymr"/>
+                        <outlet property="maxLiftedLabel" destination="MJs-X5-wmU" id="sEv-7h-eVK"/>
+                        <outlet property="newMaxLiftedText" destination="MU1-yg-WaZ" id="14n-qi-Fq1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="njz-fa-da6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -14822,6 +14880,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="J0U-XF-SuH"/>
+                                            <action selector="newWeightLiftedButton:" destination="QWF-zz-fCP" eventType="touchUpInside" id="gmg-Y9-dgL"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wil-1E-Zvt">
@@ -14862,6 +14921,8 @@
                         <outlet property="Workout1" destination="8us-hd-tSO" id="nJt-Q3-NKc"/>
                         <outlet property="Workout2" destination="FIT-k3-hsU" id="L2e-Ot-oqE"/>
                         <outlet property="Workout3" destination="ca5-hd-H5K" id="AjL-Wv-R6l"/>
+                        <outlet property="maxLiftedLabel" destination="yJr-gm-LJt" id="cou-02-mri"/>
+                        <outlet property="newMaxLiftedText" destination="YIk-kY-PRO" id="WXU-to-XHZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RVE-o6-rKh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -15170,6 +15231,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="uCY-FZ-GWS"/>
+                                            <action selector="newWeightLiftedButton:" destination="mvF-Pf-UWF" eventType="touchUpInside" id="Wgi-ab-xvN"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ecw-eo-xge">
@@ -15210,6 +15272,8 @@
                         <outlet property="Workout1" destination="a1t-TC-cTZ" id="4fq-th-MrU"/>
                         <outlet property="Workout2" destination="oB2-Cb-Fon" id="sbn-CP-qKB"/>
                         <outlet property="Workout3" destination="dCQ-eL-duk" id="J0O-qW-jDn"/>
+                        <outlet property="maxLiftedLabel" destination="1jl-BM-bZf" id="19o-KS-LD3"/>
+                        <outlet property="newMaxLiftedText" destination="bTK-rk-JMZ" id="8Ut-3V-aev"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="abN-bm-vaO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -15344,6 +15408,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="x4k-AC-6Sp"/>
+                                            <action selector="newWeightLiftedButton:" destination="p9d-b3-91w" eventType="touchUpInside" id="DpK-oC-URf"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cCy-Or-jAC">
@@ -15384,6 +15449,8 @@
                         <outlet property="Workout1" destination="tTK-dP-HVC" id="toc-5H-oUD"/>
                         <outlet property="Workout2" destination="L63-Sr-r1K" id="1O4-qN-f9C"/>
                         <outlet property="Workout3" destination="F9h-Pp-jcQ" id="1Ol-8A-azf"/>
+                        <outlet property="maxLiftedLabel" destination="jnH-Ty-fMT" id="7fm-JY-nI7"/>
+                        <outlet property="newMaxLiftedText" destination="U7q-de-mus" id="pVF-7x-Ko8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vxk-LW-Q1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -15504,6 +15571,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="96y-Mc-xOs"/>
+                                            <action selector="newWeightLiftedButton:" destination="gs9-I6-gU1" eventType="touchUpInside" id="cOW-dP-G0g"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0V-Z3-7Bd">
@@ -15543,6 +15611,8 @@
                     <connections>
                         <outlet property="Workout1" destination="yo4-LV-gRN" id="R7C-2g-JNZ"/>
                         <outlet property="Workout2" destination="mh4-PS-eXG" id="Zsw-wG-5q7"/>
+                        <outlet property="maxLiftedLabel" destination="Wrc-MP-vjg" id="bxd-J2-8Kd"/>
+                        <outlet property="newMaxLiftedText" destination="E8p-RP-BnL" id="sTS-Ss-pAR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LyS-A2-cPM" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -15677,6 +15747,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="3yX-8O-hNr"/>
+                                            <action selector="newWeightLiftedButton:" destination="ptC-xm-X8g" eventType="touchUpInside" id="sol-aQ-YCw"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jqe-X0-baw">
@@ -15717,6 +15788,8 @@
                         <outlet property="Workout1" destination="vib-R5-Az1" id="nta-Io-ric"/>
                         <outlet property="Workout2" destination="lp8-mQ-0Xu" id="7Sg-FR-NIO"/>
                         <outlet property="Workout3" destination="XsN-Fu-IfE" id="VF9-Qo-b3X"/>
+                        <outlet property="maxLiftedLabel" destination="FAz-ji-AEF" id="yx3-46-hPI"/>
+                        <outlet property="newMaxLiftedText" destination="6bG-9P-9wK" id="M1b-bs-cNb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xwB-xk-R9E" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -15851,6 +15924,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="Jbo-0I-5mM"/>
+                                            <action selector="newWeightLiftedButton:" destination="Qed-ai-yYC" eventType="touchUpInside" id="ang-SC-6MA"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdD-cm-laO">
@@ -15891,6 +15965,8 @@
                         <outlet property="Workout1" destination="rg9-3w-PVA" id="hcw-js-vLW"/>
                         <outlet property="Workout2" destination="oDJ-8K-fdI" id="USw-sn-BUM"/>
                         <outlet property="Workout3" destination="Rz2-Xb-cZf" id="heK-ub-22Z"/>
+                        <outlet property="maxLiftedLabel" destination="3tD-nZ-9lU" id="lZr-g7-JEB"/>
+                        <outlet property="newMaxLiftedText" destination="yCy-mF-ShO" id="zCc-2p-NCY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q7V-b0-xig" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -16025,6 +16101,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="7aa-lb-9bI"/>
+                                            <action selector="newWeightLiftedButton:" destination="GTH-eF-PTm" eventType="touchUpInside" id="fax-BF-Lxx"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4V5-XL-AUy">
@@ -16065,6 +16142,8 @@
                         <outlet property="Workout1" destination="lhx-Gi-guP" id="taR-I1-aXi"/>
                         <outlet property="Workout2" destination="B65-jX-sg4" id="ETh-M3-QWu"/>
                         <outlet property="Workout3" destination="20M-JM-zCF" id="qke-x2-pb7"/>
+                        <outlet property="maxLiftedLabel" destination="5dy-8p-Mcx" id="JGW-MD-6wN"/>
+                        <outlet property="newMaxLiftedText" destination="OeQ-NR-UvO" id="akZ-zq-OlG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qOM-RC-gqO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -17038,6 +17117,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="P9k-ft-mEF"/>
+                                            <action selector="newWeightLiftedButton:" destination="KYv-tJ-vOb" eventType="touchUpInside" id="C2S-37-aQb"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAK-E9-ymF">
@@ -17078,6 +17158,8 @@
                         <outlet property="Workout1" destination="GH1-Iq-hir" id="BF9-2n-n7U"/>
                         <outlet property="Workout2" destination="sgb-SQ-qia" id="wCw-4o-TLI"/>
                         <outlet property="Workout3" destination="ojW-OQ-7Ap" id="6H4-iL-x1o"/>
+                        <outlet property="maxLiftedLabel" destination="dD2-TY-ubS" id="uKh-Rp-ZmV"/>
+                        <outlet property="newMaxLiftedText" destination="oOr-1A-eG4" id="0A2-fS-O71"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dph-Vj-iOP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -17212,6 +17294,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="rne-EK-xcO"/>
+                                            <action selector="newWeightLiftedButton:" destination="i4H-tz-hXZ" eventType="touchUpInside" id="9F3-Xa-VNz"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bEk-EI-2Ld">
@@ -17252,6 +17335,8 @@
                         <outlet property="Workout1" destination="ZNf-cn-aN6" id="km5-hu-6WF"/>
                         <outlet property="Workout2" destination="1R2-P6-DIF" id="Yid-bm-6zA"/>
                         <outlet property="Workout3" destination="gHE-ST-9ja" id="Zjw-SC-au1"/>
+                        <outlet property="maxLiftedLabel" destination="CaH-iH-RGa" id="g6u-MB-Jkw"/>
+                        <outlet property="newMaxLiftedText" destination="Xw5-Do-o9K" id="5CD-dG-Rj0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yec-Uu-lRu" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -17386,6 +17471,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="dJa-3r-sGA"/>
+                                            <action selector="newWeightLiftedButton:" destination="eB0-J5-BSh" eventType="touchUpInside" id="i5e-5m-UIt"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1e-NN-0S5">
@@ -17426,6 +17512,8 @@
                         <outlet property="Workout1" destination="ASm-0d-6m8" id="hbI-Ob-A0A"/>
                         <outlet property="Workout2" destination="HAh-2g-u6g" id="XzY-aJ-H79"/>
                         <outlet property="Workout3" destination="Pdq-Fa-lc7" id="Q2M-y7-qDM"/>
+                        <outlet property="maxLiftedLabel" destination="fJn-6y-nfs" id="5SR-Vd-3ag"/>
+                        <outlet property="newMaxLiftedText" destination="43o-uy-xO8" id="0RB-u6-tNJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vdu-XT-uOs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -17560,6 +17648,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="LsC-Me-28a"/>
+                                            <action selector="newWeightLiftedButton:" destination="TWk-6J-qAd" eventType="touchUpInside" id="sHt-XE-iNF"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Axq-SZ-kdh">
@@ -17600,6 +17689,8 @@
                         <outlet property="Workout1" destination="xZ0-4S-H1n" id="Rt8-d4-VCb"/>
                         <outlet property="Workout2" destination="31h-eM-vh9" id="nOc-rF-n8G"/>
                         <outlet property="Workout3" destination="aua-dI-g53" id="zJo-8s-wOL"/>
+                        <outlet property="maxLiftedLabel" destination="2RQ-db-WN0" id="gdv-eR-y3n"/>
+                        <outlet property="newMaxLiftedText" destination="BAf-Za-y5c" id="L2Z-Wg-d0O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Juh-7k-PH3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -17734,6 +17825,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="sAF-EZ-xWg"/>
+                                            <action selector="newWeightLiftedButton:" destination="zyt-eC-V8g" eventType="touchUpInside" id="2EF-9c-qPr"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGq-cE-f4z">
@@ -17774,6 +17866,8 @@
                         <outlet property="Workout1" destination="Zu2-bM-0ap" id="l7H-bt-1pZ"/>
                         <outlet property="Workout2" destination="ixY-g7-Xd9" id="tEo-bS-I2W"/>
                         <outlet property="Workout3" destination="krk-IJ-JJg" id="x2n-zk-Xnx"/>
+                        <outlet property="maxLiftedLabel" destination="6mb-M6-Gvw" id="UlX-aA-miv"/>
+                        <outlet property="newMaxLiftedText" destination="FD8-8y-XQi" id="AxA-x0-yVd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BKF-XJ-ocD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -17908,6 +18002,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="u4U-ea-qq0"/>
+                                            <action selector="newWeightLiftedButton:" destination="ajt-KV-M3S" eventType="touchUpInside" id="bHu-iw-zDZ"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSu-gU-zUM">
@@ -17948,6 +18043,8 @@
                         <outlet property="Workout1" destination="FsJ-2W-4iL" id="Tlb-7r-KTg"/>
                         <outlet property="Workout2" destination="ONq-ur-3Fd" id="GRP-IQ-Hue"/>
                         <outlet property="Workout3" destination="L3s-lh-QjZ" id="boi-0K-e8g"/>
+                        <outlet property="maxLiftedLabel" destination="348-Ny-xdZ" id="m2R-o0-AFk"/>
+                        <outlet property="newMaxLiftedText" destination="YS4-Ci-Coa" id="fy1-uE-c51"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="epL-OT-xQh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -18082,6 +18179,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="rFB-cF-asz"/>
+                                            <action selector="newWeightLiftedButton:" destination="cHk-mD-pWR" eventType="touchUpInside" id="vyf-Ki-YNT"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ep5-GD-PeP">
@@ -18122,6 +18220,8 @@
                         <outlet property="Workout1" destination="djW-HE-YcR" id="AVh-4r-xLS"/>
                         <outlet property="Workout2" destination="5Jb-ZZ-wZQ" id="uWP-hw-lkx"/>
                         <outlet property="Workout3" destination="0Cc-G4-lFD" id="e7v-97-BtP"/>
+                        <outlet property="maxLiftedLabel" destination="Dgn-zJ-siA" id="Sw1-KY-9jL"/>
+                        <outlet property="newMaxLiftedtext" destination="v1l-ry-aCl" id="Q20-gl-qaV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W6E-d2-CwN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -18256,6 +18356,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="7qu-PN-d6C"/>
+                                            <action selector="newWeightLiftedButton:" destination="hBo-b4-ZEq" eventType="touchUpInside" id="VVG-XQ-Wfz"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YOd-3f-u7M">
@@ -18296,6 +18397,8 @@
                         <outlet property="Workout1" destination="Mfa-PO-52S" id="luZ-Ht-bpc"/>
                         <outlet property="Workout2" destination="EFs-IT-6eU" id="On9-th-nha"/>
                         <outlet property="Workout3" destination="gba-Yj-i6t" id="ykK-an-Jjb"/>
+                        <outlet property="maxLiftedLabel" destination="Yd9-vv-ji0" id="Tgj-Ci-1IS"/>
+                        <outlet property="newMaxLiftedText" destination="Itv-zp-OXd" id="1jA-hk-hUC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lry-ir-mbq" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -18430,6 +18533,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="tso-bd-Osi"/>
+                                            <action selector="newWeightLiftedButton:" destination="Ak1-Eg-yQK" eventType="touchUpInside" id="0KF-Eo-G7Q"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4gW-ob-z9v">
@@ -18470,6 +18574,8 @@
                         <outlet property="Workout1" destination="4jw-Ne-nMO" id="zzs-6k-RWN"/>
                         <outlet property="Workout2" destination="Cvp-Z7-3JV" id="kHu-Fa-Fvn"/>
                         <outlet property="Workout3" destination="s7K-QI-bbR" id="VbV-4v-6JT"/>
+                        <outlet property="maxLiftedLabel" destination="68O-3q-jK3" id="ecg-4w-4KZ"/>
+                        <outlet property="newMaxLiftedText" destination="CZ0-xh-IgM" id="2It-xv-F6a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="njD-W8-lYk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -19248,6 +19354,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="Enc-Jd-eSt"/>
+                                            <action selector="newWeightLiftedButton:" destination="2XV-Ub-Rwe" eventType="touchUpInside" id="ncx-Ry-Pia"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRa-re-xig">
@@ -19288,6 +19395,8 @@
                         <outlet property="Workout1" destination="VIH-WX-Ytf" id="1SN-xr-Crj"/>
                         <outlet property="Workout2" destination="cSi-u5-HF7" id="cnc-0r-fE4"/>
                         <outlet property="Workout3" destination="s0v-bM-wDG" id="DkM-23-LI7"/>
+                        <outlet property="maxLiftedLabel" destination="FLL-Ww-Qz5" id="elE-Mp-C1W"/>
+                        <outlet property="newMaxLiftedText" destination="MMF-I5-eJy" id="Iqr-Fc-dAG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U7A-4e-Enj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -19422,6 +19531,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="BaE-g4-y5B"/>
+                                            <action selector="newWeightLiftedButton:" destination="51e-6E-Uru" eventType="touchUpInside" id="XQI-z9-nQO"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o9T-k8-ijJ">
@@ -19462,6 +19572,8 @@
                         <outlet property="Workout1" destination="j4E-uM-GEP" id="8af-UK-P6d"/>
                         <outlet property="Workout2" destination="xYO-nM-LZw" id="db3-uk-LoB"/>
                         <outlet property="Workout3" destination="RSK-cg-nEP" id="wrq-hT-pkh"/>
+                        <outlet property="maxLiftedLabel" destination="LWN-Ld-Y9h" id="mot-SL-3rA"/>
+                        <outlet property="newMaxLiftedText" destination="ZSU-9X-uer" id="3pb-GP-3ex"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hYH-BI-K0g" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -19596,6 +19708,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="tni-89-Qli"/>
+                                            <action selector="newWeightLiftedButton:" destination="Mnt-yF-mk8" eventType="touchUpInside" id="NVf-50-Eru"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gf6-Wp-4Tk">
@@ -19636,6 +19749,8 @@
                         <outlet property="Workout1" destination="HL9-0u-87y" id="t3w-Vb-09W"/>
                         <outlet property="Workout2" destination="ZCs-Uh-iwr" id="AVm-ls-sw7"/>
                         <outlet property="Workout3" destination="9Bu-tG-CTv" id="3Z8-zB-aTl"/>
+                        <outlet property="maxLiftedLabel" destination="XE9-fD-OhS" id="tbH-KU-77m"/>
+                        <outlet property="newMaxLiftedText" destination="H0k-nv-mIu" id="tTW-Ss-Odh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KpW-wf-gs3" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -19798,6 +19913,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="bRY-0Y-yjP"/>
+                                            <action selector="newWeightLiftedButton:" destination="pMZ-TM-Hwc" eventType="touchUpInside" id="41G-ep-mn7"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrL-rz-xfe">
@@ -19840,6 +19956,8 @@
                         <outlet property="Workout3" destination="rsR-5S-Zse" id="Qr1-KX-sxn"/>
                         <outlet property="Workout4" destination="niw-go-swK" id="p2y-9y-HNb"/>
                         <outlet property="Workout5" destination="GEl-DU-yeV" id="IVy-n1-8EN"/>
+                        <outlet property="maxLiftedLabel" destination="39X-8t-FXk" id="7XB-po-aFJ"/>
+                        <outlet property="newMaxLiftedText" destination="q9S-8n-AsP" id="ZWj-ke-6a3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8B7-lE-mnC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -19974,6 +20092,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="lpE-MD-uqL"/>
+                                            <action selector="newWeightLiftedButton:" destination="zCF-aU-NoR" eventType="touchUpInside" id="Jeu-Zh-S0P"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CnJ-PA-Ucg">
@@ -20014,6 +20133,8 @@
                         <outlet property="Workout1" destination="Bds-lS-JZO" id="Net-0W-Yj5"/>
                         <outlet property="Workout2" destination="fFr-am-1WS" id="hSt-k9-T3j"/>
                         <outlet property="Workout3" destination="2Iv-TM-EJA" id="Rga-KN-0b3"/>
+                        <outlet property="maxLiftedLabel" destination="738-Of-Gxm" id="QXD-dL-iCH"/>
+                        <outlet property="newMaxLiftedText" destination="HOa-VJ-ILO" id="Gv5-aD-Dnl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gMM-8o-fD9" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -20148,6 +20269,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="Ys6-62-jcn"/>
+                                            <action selector="newWeightLiftedButton:" destination="eFb-F1-es5" eventType="touchUpInside" id="Bkk-ux-xCz"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q15-Se-VlR">
@@ -20188,6 +20310,8 @@
                         <outlet property="Workout1" destination="U4c-mE-vzF" id="69U-T0-nK2"/>
                         <outlet property="Workout2" destination="TxA-6J-GTf" id="vLi-10-Rp0"/>
                         <outlet property="Workout3" destination="y1d-dP-8nL" id="Q8z-qU-n6g"/>
+                        <outlet property="maxLiftedLabel" destination="VzJ-s0-YgB" id="KQT-R9-bNg"/>
+                        <outlet property="newMaxLiftedText" destination="9Jt-r6-lff" id="RYB-zj-bb6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rqc-CL-vZ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -20322,6 +20446,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="MRe-rZ-Lqr"/>
+                                            <action selector="newWeightLiftedButton:" destination="kdw-fv-ACo" eventType="touchUpInside" id="che-4y-dOe"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DFV-or-cdw">
@@ -20362,6 +20487,8 @@
                         <outlet property="Workout1" destination="iXd-R2-MIi" id="Tcc-KX-SEr"/>
                         <outlet property="Workout2" destination="c17-Km-bsO" id="j07-IE-rh1"/>
                         <outlet property="Workout3" destination="fkX-rd-Sv3" id="PsT-6v-Oay"/>
+                        <outlet property="maxLiftedLabel" destination="oVK-Bz-Xda" id="SCY-AQ-3Qi"/>
+                        <outlet property="newMaxLiftedText" destination="brb-Zz-gRZ" id="Jci-dL-maU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ro-c5-5SO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -22231,6 +22358,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="l3P-bH-OUf"/>
+                                            <action selector="newWeightLiftedButton:" destination="EkM-hv-x66" eventType="touchUpInside" id="JR4-1E-GDd"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f8t-tc-1gr">
@@ -22271,6 +22399,8 @@
                         <outlet property="Workout1" destination="h2L-aF-NcI" id="WEh-08-T5K"/>
                         <outlet property="Workout2" destination="hC0-yq-ghW" id="j1i-6q-tGv"/>
                         <outlet property="Workout3" destination="oQp-M1-DHE" id="Ov1-9p-UET"/>
+                        <outlet property="maxLiftedLabel" destination="siX-h8-NVj" id="I2T-PK-K6d"/>
+                        <outlet property="newMaxLiftedText" destination="0ow-Cn-24q" id="Mmw-uL-O8D"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xGf-QH-SAz" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -22405,6 +22535,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="cAt-cI-5tq"/>
+                                            <action selector="newWeightLiftedButton:" destination="KTM-1q-8X5" eventType="touchUpInside" id="OhA-vp-6hI"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Snx-0U-zH9">
@@ -22445,6 +22576,8 @@
                         <outlet property="Workout1" destination="Zsq-mN-xqM" id="5Iy-MH-k2p"/>
                         <outlet property="Workout2" destination="vj7-5O-HRB" id="ogV-rU-WLG"/>
                         <outlet property="Workout3" destination="KgP-6n-V08" id="s3i-c5-bEK"/>
+                        <outlet property="maxLiftedLabel" destination="DJp-Wd-3FR" id="wUJ-E5-1IO"/>
+                        <outlet property="newMaxLiftedText" destination="8vD-Il-J8G" id="U4z-eT-9gH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RR8-oe-udO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -22580,6 +22713,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="1FM-zE-AO6"/>
+                                            <action selector="newWeightedLiftedButton:" destination="Fpb-fm-4m8" eventType="touchUpInside" id="Aci-yO-X8I"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hw9-eI-5K9">
@@ -22620,6 +22754,8 @@
                         <outlet property="Workout1" destination="sKp-4b-fJl" id="uMG-Am-Tti"/>
                         <outlet property="Workout2" destination="gVv-FM-vtS" id="xAv-Al-0Xn"/>
                         <outlet property="Workout3" destination="qCg-Vb-evH" id="tY4-04-pC3"/>
+                        <outlet property="maxLiftedLabel" destination="Ud4-Cq-Z0G" id="Tcj-wo-iS3"/>
+                        <outlet property="newMaxLiftedText" destination="7nq-xA-fG2" id="pPf-SO-gbt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y2W-DT-2yT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -22754,6 +22890,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="mc7-ho-IoS"/>
+                                            <action selector="newWeightLiftedButton:" destination="5zi-S9-FNb" eventType="touchUpInside" id="OWC-L3-Bng"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsG-td-iOt">
@@ -22794,6 +22931,8 @@
                         <outlet property="Workout1" destination="5Tr-h1-IHh" id="Mr6-sr-3gq"/>
                         <outlet property="Workout2" destination="9fc-rI-w2l" id="4Xs-co-4XN"/>
                         <outlet property="Workout3" destination="rC9-MJ-elf" id="1fQ-ji-I23"/>
+                        <outlet property="maxLiftedLabel" destination="fGD-qu-sv5" id="JMb-9Z-Hef"/>
+                        <outlet property="newMaxLiftedText" destination="c1D-Xk-ceH" id="6H2-K9-MCR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10l-e5-WeI" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -22928,6 +23067,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="vqJ-KH-HSO"/>
+                                            <action selector="newWeightLiftedButton:" destination="HBF-u4-uuo" eventType="touchUpInside" id="gO6-XH-id0"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dko-pz-eoW">
@@ -22968,6 +23108,8 @@
                         <outlet property="Workout1" destination="dIa-4x-ccv" id="eCc-FF-OYx"/>
                         <outlet property="Workout2" destination="y7K-DM-5hR" id="Cnj-jZ-78U"/>
                         <outlet property="Workout3" destination="iSY-XN-6zw" id="YzH-Qa-sxi"/>
+                        <outlet property="maxLiftedLabel" destination="TGt-dw-CiV" id="2Oz-jB-qSA"/>
+                        <outlet property="newMaxLiftedText" destination="qPj-de-Mea" id="Lda-Za-sfK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6rE-70-nmS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -23102,6 +23244,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="TlH-sh-YL3"/>
+                                            <action selector="newWeightLiftedButton:" destination="xKJ-mY-Y7J" eventType="touchUpInside" id="lVu-A7-vAC"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNm-rw-TfF">
@@ -23142,6 +23285,8 @@
                         <outlet property="Workout1" destination="9Py-eN-VxD" id="lFp-DX-aFm"/>
                         <outlet property="Workout2" destination="9b0-js-Yw5" id="Zfh-o2-r3j"/>
                         <outlet property="Workout3" destination="x6j-On-gDW" id="Chs-yl-JBR"/>
+                        <outlet property="maxLiftedLabel" destination="cxJ-Cd-rXC" id="Yaq-yv-g1v"/>
+                        <outlet property="newMaxLiftedText" destination="jKA-um-urX" id="hh8-HD-cb8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkV-jX-Rvt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -23276,6 +23421,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="rWk-Bc-EwE"/>
+                                            <action selector="newWeightLiftedButton:" destination="Zw7-HA-T39" eventType="touchUpInside" id="U2o-yu-uYk"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFm-ZR-a29">
@@ -23316,6 +23462,8 @@
                         <outlet property="Workout1" destination="q0B-CC-Y54" id="jVD-bl-kka"/>
                         <outlet property="Workout2" destination="fdR-Il-yEL" id="iNg-2O-3UM"/>
                         <outlet property="Workout3" destination="uQh-QY-bzd" id="Xss-Vj-3Wa"/>
+                        <outlet property="maxLiftedLabel" destination="zFa-0O-797" id="PxB-of-B7U"/>
+                        <outlet property="newMaxLiftedText" destination="h2g-gh-KXl" id="aco-tw-ut4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ttd-4E-wzv" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -23450,6 +23598,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="Sr8-aV-KcQ"/>
+                                            <action selector="newWeightLiftedButton:" destination="ums-ST-ZvH" eventType="touchUpInside" id="tqy-pL-3nx"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EL4-DT-xa3">
@@ -23490,6 +23639,8 @@
                         <outlet property="Workout1" destination="m1g-yR-hXy" id="GFL-Yt-11B"/>
                         <outlet property="Workout2" destination="iGn-6Z-Ynp" id="j3B-Ba-9Mz"/>
                         <outlet property="Workout3" destination="RqN-rA-bzG" id="feh-e0-2Fs"/>
+                        <outlet property="maxLiftedLabel" destination="F27-Kp-acR" id="pBn-RF-Yjt"/>
+                        <outlet property="newMaxLiftedText" destination="Zsj-l6-Ocd" id="tTY-CK-2UH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XGv-f5-gzd" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -23625,6 +23776,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="gB0-dT-Lqr"/>
+                                            <action selector="newWeightLiftedButton:" destination="7V6-VI-hBV" eventType="touchUpInside" id="hXr-DB-NN5"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSF-AA-o9I">
@@ -23665,6 +23817,8 @@
                         <outlet property="Workout1" destination="TUf-21-KY8" id="b2e-lm-WRL"/>
                         <outlet property="Workout2" destination="b1r-ZX-tub" id="57m-Ve-n6j"/>
                         <outlet property="Workout3" destination="biK-19-2UO" id="o77-U9-krU"/>
+                        <outlet property="maxLiftedLabel" destination="XBB-gd-gMZ" id="ia3-tC-qMU"/>
+                        <outlet property="newMaxLiftedText" destination="Yzq-Ak-ktI" id="QbN-e4-9do"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vbt-Wn-6rk" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -23785,6 +23939,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="7uH-xS-gVA"/>
+                                            <action selector="newWeightLiftedButton:" destination="1JB-na-Gmc" eventType="touchUpInside" id="OFb-s1-9bL"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sd5-L0-f5Y">
@@ -23824,6 +23979,8 @@
                     <connections>
                         <outlet property="Workout1" destination="tli-Zx-SzQ" id="SX0-WA-3YS"/>
                         <outlet property="Workout2" destination="a70-Cz-FlR" id="aCO-AJ-x6c"/>
+                        <outlet property="maxLiftedLabel" destination="woe-1k-BxY" id="QIE-gz-afq"/>
+                        <outlet property="newMaxLiftedText" destination="f6x-Ph-CC0" id="gey-SH-hfS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FZV-QI-tEG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -23944,6 +24101,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="XEO-VX-nsl"/>
+                                            <action selector="newWeightLiftedButton:" destination="1Uf-6r-d1Z" eventType="touchUpInside" id="esz-Jq-NIx"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJ9-LZ-IGB">
@@ -23983,6 +24141,8 @@
                     <connections>
                         <outlet property="Workout1" destination="EkP-7l-5Nn" id="8dE-2V-Cje"/>
                         <outlet property="Workout2" destination="t7N-Fb-mCK" id="4Vw-hl-aqK"/>
+                        <outlet property="maxLiftedLabel" destination="HHa-bo-ka9" id="MAB-Qm-5P1"/>
+                        <outlet property="newMaxLiftedtext" destination="toZ-N1-euj" id="mct-Oh-haW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JvD-Mh-u8T" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24890,12 +25050,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alternative Workouts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="PNx-EM-aEb">
-                                <rect key="frame" x="82" y="431.33333333333331" width="250" height="33.666666666666686"/>
+                                <rect key="frame" x="82" y="407.33333333333331" width="250" height="57.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workout Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="F7y-AI-xqC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Workout Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="F7y-AI-xqC">
                                 <rect key="frame" x="125" y="102" width="165" height="33.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -24961,6 +25121,62 @@
                                     <constraint firstItem="O0n-wH-GMf" firstAttribute="leading" secondItem="B9w-id-lYy" secondAttribute="leading" id="yDQ-js-H5f"/>
                                 </constraints>
                             </scrollView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="0hw-zX-iW4">
+                                <rect key="frame" x="20" y="165.66666666666669" width="374" height="231.66666666666669"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maximum Weight Lifted (lbs)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iSV-bk-xvR">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MaxWeightLiftedLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uwy-wr-B5U">
+                                        <rect key="frame" x="0.0" y="20.333333333333343" width="374" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="NBM-1I-UjY">
+                                        <rect key="frame" x="0.0" y="40.666666666666686" width="374" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adq-uC-Xfv">
+                                                <rect key="frame" x="0.0" y="0.0" width="124.66666666666667" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New Max Weight" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="ROG-Xm-o2p">
+                                                <rect key="frame" x="124.66666666666666" y="0.0" width="124.66666666666666" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bps-8v-YkU">
+                                                <rect key="frame" x="249.33333333333329" y="0.0" width="124.66666666666666" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mGR-A9-fjO">
+                                        <rect key="frame" x="0.0" y="70.666666666666686" width="374" height="30"/>
+                                        <state key="normal" title="Save New Weight">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="XvU-09-dTu"/>
+                                            <action selector="newWeightLiftedButton:" destination="ELb-JR-j7R" eventType="touchUpInside" id="sDa-Go-fs0"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Gs-de-PzW">
+                                        <rect key="frame" x="0.0" y="100.66666666666666" width="374" height="131"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -24969,14 +25185,18 @@
                             <constraint firstItem="B9w-id-lYy" firstAttribute="bottom" secondItem="k4T-Vm-3Ah" secondAttribute="bottom" constant="-60" id="3Sm-K0-nN3"/>
                             <constraint firstItem="k4T-Vm-3Ah" firstAttribute="trailing" secondItem="F7y-AI-xqC" secondAttribute="trailing" constant="124" id="5Yg-Gz-und"/>
                             <constraint firstItem="B9w-id-lYy" firstAttribute="leading" secondItem="i7V-Pg-DtX" secondAttribute="leadingMargin" id="5dK-uI-byX"/>
+                            <constraint firstAttribute="trailing" secondItem="0hw-zX-iW4" secondAttribute="trailing" constant="20" id="An1-HP-766"/>
                             <constraint firstItem="iIo-KU-XOO" firstAttribute="leading" secondItem="k4T-Vm-3Ah" secondAttribute="leading" id="L5x-qr-o03"/>
                             <constraint firstAttribute="bottom" secondItem="iIo-KU-XOO" secondAttribute="bottom" id="OPf-cb-JLf"/>
                             <constraint firstItem="B9w-id-lYy" firstAttribute="centerX" secondItem="PNx-EM-aEb" secondAttribute="centerX" id="Ohx-83-Pp8"/>
+                            <constraint firstItem="0hw-zX-iW4" firstAttribute="leading" secondItem="k4T-Vm-3Ah" secondAttribute="leading" constant="20" id="PkW-3s-4tb"/>
                             <constraint firstItem="B9w-id-lYy" firstAttribute="top" secondItem="PNx-EM-aEb" secondAttribute="bottom" constant="8" symbolic="YES" id="SEQ-Fy-JZI"/>
                             <constraint firstItem="iIo-KU-XOO" firstAttribute="trailing" secondItem="k4T-Vm-3Ah" secondAttribute="trailing" id="UfH-xQ-Iql"/>
                             <constraint firstAttribute="trailing" secondItem="B9w-id-lYy" secondAttribute="trailing" constant="20" id="Vrr-1g-6P0"/>
                             <constraint firstItem="k4T-Vm-3Ah" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="PNx-EM-aEb" secondAttribute="trailing" id="WWg-bK-JnE"/>
                             <constraint firstItem="B9w-id-lYy" firstAttribute="leading" secondItem="k4T-Vm-3Ah" secondAttribute="leading" constant="20" id="eNI-ME-kjH"/>
+                            <constraint firstItem="0hw-zX-iW4" firstAttribute="top" secondItem="F7y-AI-xqC" secondAttribute="bottom" constant="30" id="gYn-If-q8d"/>
+                            <constraint firstItem="PNx-EM-aEb" firstAttribute="top" secondItem="0hw-zX-iW4" secondAttribute="bottom" constant="10" id="n0v-bZ-4Sl"/>
                             <constraint firstItem="k4T-Vm-3Ah" firstAttribute="bottom" secondItem="PNx-EM-aEb" secondAttribute="bottom" constant="397" id="nfR-gR-N7l"/>
                             <constraint firstItem="iIo-KU-XOO" firstAttribute="top" secondItem="i7V-Pg-DtX" secondAttribute="top" id="w3g-39-l4v"/>
                             <constraint firstItem="PNx-EM-aEb" firstAttribute="leading" secondItem="k4T-Vm-3Ah" secondAttribute="leading" constant="82" id="wbj-WZ-R2K"/>
@@ -24987,6 +25207,8 @@
                         <outlet property="Workout1" destination="ZKd-pr-JHC" id="s7R-WQ-hDf"/>
                         <outlet property="Workout2" destination="fmV-Wo-lBA" id="7zU-tP-qxb"/>
                         <outlet property="Workout3" destination="GoP-EH-b2I" id="Do3-Jy-qTw"/>
+                        <outlet property="maxLiftedLabel" destination="uwy-wr-B5U" id="bJ4-PD-fVP"/>
+                        <outlet property="newMaxLiftedText" destination="ROG-Xm-o2p" id="v3d-bh-HQi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oPw-Wh-Z8E" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -25121,6 +25343,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="3M9-Py-4Vo"/>
+                                            <action selector="newWeightLiftedButton:" destination="5A5-Db-1Tg" eventType="touchUpInside" id="mpt-gb-RSa"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmU-z4-a2O">
@@ -25161,6 +25384,8 @@
                         <outlet property="Workout1" destination="VhC-kg-Hwo" id="65a-nH-hW6"/>
                         <outlet property="Workout2" destination="Xle-mT-TkG" id="WqC-4R-gV5"/>
                         <outlet property="Workout3" destination="4Qp-oc-m8v" id="XZY-q4-Rpj"/>
+                        <outlet property="maxLiftedLabel" destination="u5K-JP-d67" id="8sb-Nc-6by"/>
+                        <outlet property="newMaxLiftedText" destination="5g8-4Z-ZHv" id="sLh-Cd-E2o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aaN-jC-Y1H" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -25179,12 +25404,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alternative Workouts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="wFd-u7-hBG">
-                                <rect key="frame" x="82" y="431.33333333333331" width="250" height="33.666666666666686"/>
+                                <rect key="frame" x="82" y="407.33333333333331" width="250" height="57.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workout Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="ba1-yF-da3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Workout Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="ba1-yF-da3">
                                 <rect key="frame" x="125" y="102" width="165" height="33.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -25250,15 +25475,75 @@
                                     <constraint firstItem="hTA-24-S8Y" firstAttribute="width" secondItem="NuF-zW-Sz3" secondAttribute="width" id="pSb-qg-Jgk"/>
                                 </constraints>
                             </scrollView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="DO3-MS-dct">
+                                <rect key="frame" x="20" y="165.66666666666669" width="374" height="231.66666666666669"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maximum Weight Lifted (lbs)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="OJI-fk-rvX">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MaxWeightLiftedLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="E9P-F4-YUX">
+                                        <rect key="frame" x="0.0" y="20.333333333333343" width="374" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Zrw-zj-VLW">
+                                        <rect key="frame" x="0.0" y="40.666666666666686" width="374" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Esw-VU-X2L">
+                                                <rect key="frame" x="0.0" y="0.0" width="124.66666666666667" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New Max Weight" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="9xB-DX-Yff">
+                                                <rect key="frame" x="124.66666666666666" y="0.0" width="124.66666666666666" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36v-7i-WB2">
+                                                <rect key="frame" x="249.33333333333329" y="0.0" width="124.66666666666666" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KbC-0c-Uhk">
+                                        <rect key="frame" x="0.0" y="70.666666666666686" width="374" height="30"/>
+                                        <state key="normal" title="Save New Weight">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="pkC-Ty-7Wp"/>
+                                            <action selector="newWeightLiftedButton:" destination="9QL-Sd-MkG" eventType="touchUpInside" id="HQA-vd-bx7"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WDl-7c-0EB">
+                                        <rect key="frame" x="0.0" y="100.66666666666666" width="374" height="131"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="4wj-Bz-eJH" firstAttribute="top" secondItem="BTt-Fo-6hq" secondAttribute="top" id="3YI-2V-Jiv"/>
                             <constraint firstItem="NuF-zW-Sz3" firstAttribute="leading" secondItem="BTt-Fo-6hq" secondAttribute="leadingMargin" id="4uq-YZ-W7G"/>
                             <constraint firstAttribute="bottom" secondItem="4wj-Bz-eJH" secondAttribute="bottom" id="6IF-D6-10G"/>
+                            <constraint firstItem="wFd-u7-hBG" firstAttribute="top" secondItem="DO3-MS-dct" secondAttribute="bottom" constant="10" id="6Su-C6-3JF"/>
+                            <constraint firstAttribute="trailing" secondItem="DO3-MS-dct" secondAttribute="trailing" constant="20" id="Dkl-8a-x1q"/>
                             <constraint firstItem="6wV-eW-jrf" firstAttribute="bottom" secondItem="wFd-u7-hBG" secondAttribute="bottom" constant="397" id="LSo-Ov-Zlh"/>
+                            <constraint firstItem="DO3-MS-dct" firstAttribute="top" secondItem="ba1-yF-da3" secondAttribute="bottom" constant="30" id="M9r-c7-2J7"/>
                             <constraint firstItem="ba1-yF-da3" firstAttribute="leading" secondItem="6wV-eW-jrf" secondAttribute="leading" constant="125" id="QZB-sO-pP4"/>
                             <constraint firstItem="6wV-eW-jrf" firstAttribute="trailing" secondItem="ba1-yF-da3" secondAttribute="trailing" constant="124" id="Sf5-Ln-pZs"/>
+                            <constraint firstItem="DO3-MS-dct" firstAttribute="leading" secondItem="BTt-Fo-6hq" secondAttribute="leading" constant="20" id="TqV-df-Jye"/>
                             <constraint firstItem="ba1-yF-da3" firstAttribute="top" secondItem="6wV-eW-jrf" secondAttribute="top" constant="14" id="b58-j2-5V9"/>
                             <constraint firstItem="4wj-Bz-eJH" firstAttribute="leading" secondItem="6wV-eW-jrf" secondAttribute="leading" id="fjn-iY-bbZ"/>
                             <constraint firstAttribute="trailing" secondItem="NuF-zW-Sz3" secondAttribute="trailing" constant="20" id="grs-xb-fF3"/>
@@ -25276,6 +25561,8 @@
                         <outlet property="Workout1" destination="Ysv-Qs-OCr" id="dmu-kh-3Rx"/>
                         <outlet property="Workout2" destination="cip-sI-Hrh" id="JwF-cL-Kwo"/>
                         <outlet property="Workout3" destination="oq3-Sp-3Or" id="o1o-Ay-Gdg"/>
+                        <outlet property="maxLiftedLabel" destination="E9P-F4-YUX" id="Mmv-S4-IWp"/>
+                        <outlet property="newMaxLiftedText" destination="9xB-DX-Yff" id="AWk-ix-e4f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JyW-EA-uPJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -25410,6 +25697,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="TCS-rv-eJL"/>
+                                            <action selector="newWeightLiftedButton:" destination="cJv-Xq-b19" eventType="touchUpInside" id="Ubt-SZ-YP9"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igO-HV-gPo">
@@ -25450,6 +25738,8 @@
                         <outlet property="Workout1" destination="gcN-Ui-yTG" id="GfX-cK-3MQ"/>
                         <outlet property="Workout2" destination="w95-H9-c5Q" id="BtD-A2-uH2"/>
                         <outlet property="Workout3" destination="N54-pZ-U9u" id="SSW-cN-O5K"/>
+                        <outlet property="maxLiftedLabel" destination="Ifm-iT-9pC" id="AeE-n0-yKr"/>
+                        <outlet property="newMaxLiftedText" destination="96r-ZT-sCf" id="1am-5S-Bwc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mrr-WF-eln" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -25468,12 +25758,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alternative Workouts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="O3n-fI-TGZ">
-                                <rect key="frame" x="82" y="431.33333333333331" width="250" height="33.666666666666686"/>
+                                <rect key="frame" x="82" y="407.33333333333331" width="250" height="57.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workout Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="0Ft-XG-ZDn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Workout Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="0Ft-XG-ZDn">
                                 <rect key="frame" x="125" y="102" width="165" height="33.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -25539,19 +25829,79 @@
                                     <constraint firstItem="UGi-cs-0fO" firstAttribute="leading" secondItem="L6d-ch-kRo" secondAttribute="leading" id="xoc-pZ-E1F"/>
                                 </constraints>
                             </scrollView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="t5r-3s-INU">
+                                <rect key="frame" x="20" y="165.66666666666669" width="374" height="231.66666666666669"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maximum Weight Lifted (lbs)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3O0-IQ-VDa">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MaxWeightLiftedLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vaf-eY-w6k">
+                                        <rect key="frame" x="0.0" y="20.333333333333343" width="374" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0Dq-c4-wXa">
+                                        <rect key="frame" x="0.0" y="40.666666666666686" width="374" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hki-Iz-aUB">
+                                                <rect key="frame" x="0.0" y="0.0" width="124.66666666666667" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New Max Weight" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="r6d-lH-qhA">
+                                                <rect key="frame" x="124.66666666666666" y="0.0" width="124.66666666666666" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2b-l7-zuc">
+                                                <rect key="frame" x="249.33333333333329" y="0.0" width="124.66666666666666" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oWd-ys-vRH">
+                                        <rect key="frame" x="0.0" y="70.666666666666686" width="374" height="30"/>
+                                        <state key="normal" title="Save New Weight">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="9gf-m8-wja"/>
+                                            <action selector="newWeightLiftedButton:" destination="M3f-Tg-sHY" eventType="touchUpInside" id="Gfh-Ni-UHm"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOw-t1-E2I">
+                                        <rect key="frame" x="0.0" y="100.66666666666666" width="374" height="131"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="O3n-fI-TGZ" firstAttribute="leading" secondItem="wx2-si-409" secondAttribute="leading" constant="82" id="1BJ-dx-x08"/>
                             <constraint firstItem="wx2-si-409" firstAttribute="trailing" secondItem="0Ft-XG-ZDn" secondAttribute="trailing" constant="124" id="1Tv-eh-3gv"/>
                             <constraint firstItem="G8a-Ye-iIL" firstAttribute="trailing" secondItem="wx2-si-409" secondAttribute="trailing" id="3Mf-G9-Pxb"/>
+                            <constraint firstItem="t5r-3s-INU" firstAttribute="leading" secondItem="wx2-si-409" secondAttribute="leading" constant="20" id="4Jd-Lq-eyD"/>
                             <constraint firstItem="L6d-ch-kRo" firstAttribute="bottom" secondItem="wx2-si-409" secondAttribute="bottom" constant="-60" id="5gx-iB-Mzv"/>
                             <constraint firstItem="L6d-ch-kRo" firstAttribute="centerX" secondItem="O3n-fI-TGZ" secondAttribute="centerX" id="7Zk-kX-ZlT"/>
                             <constraint firstAttribute="trailing" secondItem="L6d-ch-kRo" secondAttribute="trailing" constant="20" id="8Dy-Jr-92u"/>
                             <constraint firstItem="wx2-si-409" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="O3n-fI-TGZ" secondAttribute="trailing" id="Ec4-iy-lGH"/>
+                            <constraint firstItem="O3n-fI-TGZ" firstAttribute="top" secondItem="t5r-3s-INU" secondAttribute="bottom" constant="10" id="En5-ls-LfM"/>
+                            <constraint firstAttribute="trailing" secondItem="t5r-3s-INU" secondAttribute="trailing" constant="20" id="G42-LO-9gc"/>
                             <constraint firstItem="L6d-ch-kRo" firstAttribute="leading" secondItem="hQG-bN-ciM" secondAttribute="leadingMargin" id="ME5-dv-w3p"/>
                             <constraint firstAttribute="bottom" secondItem="G8a-Ye-iIL" secondAttribute="bottom" id="QCC-ky-jBh"/>
                             <constraint firstItem="wx2-si-409" firstAttribute="bottom" secondItem="O3n-fI-TGZ" secondAttribute="bottom" constant="397" id="UUa-eq-iDM"/>
+                            <constraint firstItem="t5r-3s-INU" firstAttribute="top" secondItem="0Ft-XG-ZDn" secondAttribute="bottom" constant="30" id="bwA-AW-JYe"/>
                             <constraint firstItem="L6d-ch-kRo" firstAttribute="leading" secondItem="wx2-si-409" secondAttribute="leading" constant="20" id="dwf-6M-Kbh"/>
                             <constraint firstItem="G8a-Ye-iIL" firstAttribute="leading" secondItem="wx2-si-409" secondAttribute="leading" id="hNn-JF-wcB"/>
                             <constraint firstItem="G8a-Ye-iIL" firstAttribute="top" secondItem="hQG-bN-ciM" secondAttribute="top" id="mWj-ey-o8K"/>
@@ -25565,6 +25915,8 @@
                         <outlet property="Workout1" destination="ji3-ug-wbX" id="fA9-vR-gBa"/>
                         <outlet property="Workout2" destination="iBp-G9-AFa" id="aE7-cR-J4A"/>
                         <outlet property="Workout3" destination="gjW-2i-chX" id="XQf-hL-z0n"/>
+                        <outlet property="maxLiftedLabel" destination="vaf-eY-w6k" id="0rT-ek-Cnw"/>
+                        <outlet property="newMaxLiftedText" destination="r6d-lH-qhA" id="Dwc-mH-j8T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xQp-bR-zJH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -25699,6 +26051,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="HGA-Ak-cYE"/>
+                                            <action selector="newWeightLiftedButton:" destination="RgB-7w-Gmg" eventType="touchUpInside" id="SaG-te-vML"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Zk-o8-wWd">
@@ -25739,6 +26092,8 @@
                         <outlet property="Workout1" destination="mLF-fK-BPT" id="JUF-bm-bz2"/>
                         <outlet property="Workout2" destination="tBn-cN-Oow" id="FL9-su-BC6"/>
                         <outlet property="Workout3" destination="Ksb-ym-6wL" id="Bki-Cx-B2o"/>
+                        <outlet property="maxLiftedLabel" destination="suq-gh-KSt" id="dTK-wB-ldH"/>
+                        <outlet property="newMaxLiftedText" destination="1mE-dU-RWw" id="7cU-vV-bnL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ptx-UU-zgr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -25757,12 +26112,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alternative Workouts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="SDY-ho-J6z">
-                                <rect key="frame" x="82" y="431.33333333333331" width="250" height="33.666666666666686"/>
+                                <rect key="frame" x="82" y="407.33333333333331" width="250" height="57.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workout Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="ADy-aq-Dyt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Workout Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="ADy-aq-Dyt">
                                 <rect key="frame" x="125" y="102" width="165" height="33.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -25828,6 +26183,62 @@
                                     <constraint firstAttribute="bottom" secondItem="Jaz-Mq-rP8" secondAttribute="bottom" id="sLl-Sk-nuS"/>
                                 </constraints>
                             </scrollView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="v9d-Me-MQ7">
+                                <rect key="frame" x="20" y="165.66666666666669" width="374" height="231.66666666666669"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maximum Weight Lifted (lbs)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Wdm-Ed-dga">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MaxWeightLiftedLabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="aIj-WP-I27">
+                                        <rect key="frame" x="0.0" y="20.333333333333343" width="374" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="a1a-6T-ucy">
+                                        <rect key="frame" x="0.0" y="40.666666666666686" width="374" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LME-8K-bW8">
+                                                <rect key="frame" x="0.0" y="0.0" width="124.66666666666667" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="New Max Weight" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="zzv-1v-gf5">
+                                                <rect key="frame" x="124.66666666666666" y="0.0" width="124.66666666666666" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad" keyboardAppearance="alert" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zlh-Cg-Ppc">
+                                                <rect key="frame" x="249.33333333333329" y="0.0" width="124.66666666666666" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixS-We-08f">
+                                        <rect key="frame" x="0.0" y="70.666666666666686" width="374" height="30"/>
+                                        <state key="normal" title="Save New Weight">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="FbL-Xj-9Oz"/>
+                                            <action selector="newWeightLiftedButton:" destination="DZv-fI-BGg" eventType="touchUpInside" id="we3-wk-qIO"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Luj-5d-oXN">
+                                        <rect key="frame" x="0.0" y="100.66666666666666" width="374" height="131"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -25835,12 +26246,16 @@
                             <constraint firstItem="RI9-VF-uAn" firstAttribute="leading" secondItem="QZx-Yr-L5w" secondAttribute="leadingMargin" id="6Ad-BJ-hze"/>
                             <constraint firstItem="RI9-VF-uAn" firstAttribute="bottom" secondItem="R4F-oX-y0P" secondAttribute="bottom" constant="-60" id="83I-bQ-LxR"/>
                             <constraint firstItem="ADy-aq-Dyt" firstAttribute="top" secondItem="R4F-oX-y0P" secondAttribute="top" constant="14" id="A0O-aO-YGr"/>
+                            <constraint firstItem="SDY-ho-J6z" firstAttribute="top" secondItem="v9d-Me-MQ7" secondAttribute="bottom" constant="10" id="FR1-fY-8wP"/>
                             <constraint firstAttribute="bottom" secondItem="xUM-8W-0pX" secondAttribute="bottom" id="FRc-aH-GuQ"/>
                             <constraint firstAttribute="trailing" secondItem="RI9-VF-uAn" secondAttribute="trailing" constant="20" id="IUz-5M-5ar"/>
+                            <constraint firstItem="v9d-Me-MQ7" firstAttribute="leading" secondItem="R4F-oX-y0P" secondAttribute="leading" constant="20" id="KbZ-Dr-vz0"/>
                             <constraint firstItem="xUM-8W-0pX" firstAttribute="trailing" secondItem="R4F-oX-y0P" secondAttribute="trailing" id="KdN-a4-sQQ"/>
+                            <constraint firstAttribute="trailing" secondItem="v9d-Me-MQ7" secondAttribute="trailing" constant="20" id="Rlo-i2-Ef4"/>
                             <constraint firstItem="xUM-8W-0pX" firstAttribute="leading" secondItem="R4F-oX-y0P" secondAttribute="leading" id="Wdh-gf-nx3"/>
                             <constraint firstItem="SDY-ho-J6z" firstAttribute="leading" secondItem="R4F-oX-y0P" secondAttribute="leading" constant="82" id="XQf-Yr-9Vl"/>
                             <constraint firstItem="R4F-oX-y0P" firstAttribute="bottom" secondItem="SDY-ho-J6z" secondAttribute="bottom" constant="397" id="aSg-wh-Blm"/>
+                            <constraint firstItem="v9d-Me-MQ7" firstAttribute="top" secondItem="ADy-aq-Dyt" secondAttribute="bottom" constant="30" id="azN-Fc-5dn"/>
                             <constraint firstItem="RI9-VF-uAn" firstAttribute="centerX" secondItem="SDY-ho-J6z" secondAttribute="centerX" id="b8b-rC-Xru"/>
                             <constraint firstItem="R4F-oX-y0P" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="SDY-ho-J6z" secondAttribute="trailing" id="hFr-Tl-U7Y"/>
                             <constraint firstItem="RI9-VF-uAn" firstAttribute="top" secondItem="SDY-ho-J6z" secondAttribute="bottom" constant="8" symbolic="YES" id="l0J-6b-boF"/>
@@ -25854,6 +26269,8 @@
                         <outlet property="Workout1" destination="rjb-E0-hWc" id="FAD-ks-5XC"/>
                         <outlet property="Workout2" destination="eXd-wO-sGX" id="rcd-Aa-CSL"/>
                         <outlet property="Workout3" destination="O2U-EY-D9h" id="IfX-fT-M0y"/>
+                        <outlet property="maxLiftedLabel" destination="aIj-WP-I27" id="eAx-gn-MAd"/>
+                        <outlet property="newMaxLiftedText" destination="zzv-1v-gf5" id="KYC-f5-KDa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jWL-g4-JYR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -25988,6 +26405,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="Oo8-BX-1HX"/>
+                                            <action selector="newWeightLiftedButton:" destination="iA1-Oy-6YD" eventType="touchUpInside" id="qkE-5f-TKK"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZ3-ti-9x5">
@@ -26028,6 +26446,8 @@
                         <outlet property="Workout1" destination="VNT-Nz-33z" id="GHy-SW-pxn"/>
                         <outlet property="Workout2" destination="Vmg-bG-zcd" id="0hR-vG-89v"/>
                         <outlet property="Workout3" destination="iEg-kY-Rg5" id="HHx-Ed-nPc"/>
+                        <outlet property="maxLiftedLabel" destination="9fl-mJ-kjg" id="wFX-FK-J94"/>
+                        <outlet property="newMaxLiftedText" destination="CFV-lP-OmN" id="ouL-Tt-Ip5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4cb-W5-Xsx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -26162,6 +26582,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="rEg-tS-1Tw"/>
+                                            <action selector="newWeightLiftedButton:" destination="ZAc-rj-EsD" eventType="touchUpInside" id="E5n-Rz-Od8"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DIY-M7-aM6">
@@ -26202,6 +26623,8 @@
                         <outlet property="Workout1" destination="K9Q-dI-BP3" id="lJb-bf-frr"/>
                         <outlet property="Workout2" destination="tVr-u2-jg3" id="4hu-GB-j32"/>
                         <outlet property="Workout3" destination="l95-mC-J7Y" id="fbv-4G-C4D"/>
+                        <outlet property="maxLiftedLabel" destination="TeB-J1-cb1" id="ijR-Le-qed"/>
+                        <outlet property="newMaxLiftedLabel" destination="7EA-hm-6oP" id="ju2-lX-ZtG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ls-f0-u6G" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -26336,6 +26759,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="40P-3c-xRT"/>
+                                            <action selector="newWeightLiftedButton:" destination="MiF-hu-SNx" eventType="touchUpInside" id="xj9-3X-H60"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ieF-ht-Wwn">
@@ -26376,6 +26800,8 @@
                         <outlet property="Workout1" destination="dmF-jc-aU4" id="hZw-xM-HdF"/>
                         <outlet property="Workout2" destination="dRe-YW-YUw" id="Gf4-Rc-Zr8"/>
                         <outlet property="Workout3" destination="3Ws-dq-PxR" id="dMy-Zn-UkD"/>
+                        <outlet property="maxLiftedLabel" destination="eF8-IN-aCf" id="gYv-gs-scC"/>
+                        <outlet property="newMaxLiftedLabel" destination="BR6-eR-z6z" id="BrK-Kn-X39"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h9S-aR-VmT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -26510,6 +26936,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="ZWp-0X-A52"/>
+                                            <action selector="newWeightLiftedButton:" destination="7Ur-b8-pOI" eventType="touchUpInside" id="CO3-9z-j7g"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Jd-lT-RGl">
@@ -26550,6 +26977,8 @@
                         <outlet property="Workout1" destination="sRM-94-o9N" id="n89-Oe-gVJ"/>
                         <outlet property="Workout2" destination="wko-fh-6iG" id="IQB-x2-WFL"/>
                         <outlet property="Workout3" destination="lAA-02-pbt" id="emZ-w5-UiT"/>
+                        <outlet property="maxLiftedLabel" destination="M5m-Z2-Y09" id="e62-7b-0xm"/>
+                        <outlet property="newMaxLiftedText" destination="Rdt-Ao-brm" id="U0n-5s-UXg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="622-ji-PaA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -26684,6 +27113,7 @@
                                         </state>
                                         <connections>
                                             <action selector="newWeightButon:" destination="4fO-3w-vIy" eventType="touchUpInside" id="dVg-iv-5wH"/>
+                                            <action selector="newWeightLiftedButton:" destination="ocG-TG-Krh" eventType="touchUpInside" id="U7m-0T-7KD"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXF-9K-39T">
@@ -26724,6 +27154,8 @@
                         <outlet property="Workout1" destination="IaG-zc-xcZ" id="zp4-mn-srT"/>
                         <outlet property="Workout2" destination="R4q-Rr-JSG" id="ZMc-t6-sAD"/>
                         <outlet property="Workout3" destination="jtf-Mk-nWa" id="7cE-61-sMD"/>
+                        <outlet property="maxLiftedLabel" destination="3Yf-gF-FFq" id="Lfa-Ps-26L"/>
+                        <outlet property="newMaxLiftedText" destination="sjs-6G-fA5" id="IXK-Pa-4Qd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AZn-hm-ljy" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -26911,8 +27343,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="XVj-nR-Ogw"/>
-        <segue reference="dBD-un-XXy"/>
-        <segue reference="9ar-HH-R7M"/>
+        <segue reference="7Mo-CU-piY"/>
+        <segue reference="MQI-Zh-1Cd"/>
         <segue reference="HPz-VG-vRV"/>
         <segue reference="gee-Rh-8CF"/>
         <segue reference="MWu-mF-bMh"/>
@@ -26923,8 +27355,8 @@
         <segue reference="LSS-zG-Xjp"/>
         <segue reference="Olg-oL-knz"/>
         <segue reference="1Mj-Iz-Bfi"/>
-        <segue reference="RWP-JB-kpr"/>
-        <segue reference="2a3-nM-jDo"/>
+        <segue reference="JpY-Ia-ufh"/>
+        <segue reference="ZdO-KK-fhD"/>
         <segue reference="8Q1-zb-u3M"/>
         <segue reference="etx-Nz-tFl"/>
         <segue reference="Ui2-Ba-rV0"/>
@@ -26936,7 +27368,7 @@
         <segue reference="mlh-LA-KGQ"/>
         <segue reference="3pl-6q-UTl"/>
         <segue reference="YQs-PG-ZZ9"/>
-        <segue reference="iTK-vA-jaT"/>
+        <segue reference="h7r-Wd-2KJ"/>
         <segue reference="n8L-SO-dyg"/>
         <segue reference="T6t-Tb-vPd"/>
         <segue reference="ZlC-gH-dJv"/>
@@ -26946,30 +27378,30 @@
         <segue reference="0Xo-oy-7ZF"/>
         <segue reference="YWk-qo-7fy"/>
         <segue reference="ZAp-CX-E0P"/>
-        <segue reference="kkv-Lo-nNV"/>
-        <segue reference="IGy-iB-rYN"/>
+        <segue reference="Luz-VJ-3Fc"/>
+        <segue reference="zGZ-zz-m7h"/>
         <segue reference="Ywg-Ow-oLw"/>
-        <segue reference="HvZ-rN-0AD"/>
-        <segue reference="OZe-Nb-6HL"/>
-        <segue reference="cgf-E3-spZ"/>
+        <segue reference="2GS-Vh-2D1"/>
+        <segue reference="ArC-SA-nUb"/>
+        <segue reference="JAj-i6-vBi"/>
         <segue reference="4G5-qu-1FC"/>
         <segue reference="vxd-wF-l7I"/>
         <segue reference="tXC-Rp-MB6"/>
         <segue reference="lnW-Do-nv2"/>
-        <segue reference="cb9-Bb-s5s"/>
-        <segue reference="iHT-aU-PPD"/>
+        <segue reference="PXJ-H4-TP7"/>
+        <segue reference="KEg-0w-733"/>
         <segue reference="N2Y-qK-qEW"/>
         <segue reference="4Gq-j4-Nhz"/>
         <segue reference="Akd-Si-PqD"/>
-        <segue reference="Xwe-Hm-Sdj"/>
-        <segue reference="Bce-VN-F9F"/>
+        <segue reference="jl6-P1-fsH"/>
+        <segue reference="2ja-jn-16T"/>
         <segue reference="Ymv-aQ-JZL"/>
-        <segue reference="meA-xP-vop"/>
-        <segue reference="E9J-Q7-7PU"/>
-        <segue reference="X0H-px-nMo"/>
-        <segue reference="uWX-OF-cH0"/>
+        <segue reference="9Hk-V0-fOk"/>
+        <segue reference="feo-IU-SSk"/>
+        <segue reference="hYI-lg-TM9"/>
+        <segue reference="sak-9D-MpJ"/>
         <segue reference="Z8Y-GE-5Ta"/>
-        <segue reference="gbH-P0-HfB"/>
+        <segue reference="Sg9-jX-SBY"/>
         <segue reference="Jbe-ev-mJh"/>
     </inferredMetricsTieBreakers>
 </document>

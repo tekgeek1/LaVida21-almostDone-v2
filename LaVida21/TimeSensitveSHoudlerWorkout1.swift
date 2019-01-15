@@ -8,6 +8,7 @@
 
 import UIKit
 import GoogleMobileAds
+import CoreData
 
 class TimeSensitveSHoudlerWorkout1: UIViewController {
     
@@ -23,6 +24,7 @@ class TimeSensitveSHoudlerWorkout1: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.HideKeyboard()
         
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
         addBannerViewToView(bannerView)

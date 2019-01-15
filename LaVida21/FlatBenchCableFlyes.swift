@@ -20,7 +20,6 @@ class FlatBenchCableFlyes: UIViewController {
     @IBOutlet weak var maxLiftedLabel: UILabel!
     @IBOutlet weak var newMaxLiftedText: UITextField!
     
-    
     @IBAction func newWeightLiftedButton(_ sender: UIButton) {
        maxLiftedLabel.text = newMaxLiftedText.text
         updateDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Flat Bench Cable Fly", value: maxLiftedLabel.text!)
@@ -31,7 +30,7 @@ class FlatBenchCableFlyes: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("-----------------HELP-----------------")
+      self.HideKeyboard()
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Flat Bench Cable Fly", value: maxLiftedLabel.text!)
         
         maxLiftedLabel.text = valuetest

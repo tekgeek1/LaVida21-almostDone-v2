@@ -32,6 +32,8 @@ class LandminePress: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.HideKeyboard()
+        
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Landmine Press", value: maxLiftedLabel.text!)
         
         maxLiftedLabel.text = valuetest

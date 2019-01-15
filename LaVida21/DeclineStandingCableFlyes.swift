@@ -29,6 +29,7 @@ class DeclineStandingCableFlyes: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.HideKeyboard()
         
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Decline Standing Cable Fly", value: maxLiftedLabel.text!)
         

@@ -8,6 +8,7 @@
 
 import UIKit
 import GoogleMobileAds
+import CoreData
 
 class BentoverReverseDumbbellRows: UIViewController {
     
@@ -18,6 +19,8 @@ class BentoverReverseDumbbellRows: UIViewController {
     @IBOutlet weak var Workout3: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.HideKeyboard()
         
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
         addBannerViewToView(bannerView)

@@ -8,6 +8,7 @@
 
 import UIKit
 import GoogleMobileAds
+import CoreData
 
 class SeatedCalfRaises: UIViewController {
     
@@ -15,8 +16,24 @@ class SeatedCalfRaises: UIViewController {
 
     @IBOutlet weak var Workout1: UIImageView!
     @IBOutlet weak var Workout2: UIImageView!
+    
+    @IBOutlet weak var maxLiftedLabel: UILabel!
+    @IBOutlet weak var newMaxLiftedtext: UITextField!
+    @IBAction func newWeightLiftedButton(_ sender: UIButton) {
+        maxLiftedLabel.text = newMaxLiftedtext.text
+        updateDataGlobal(EntityVar: "Legs", ExeriseNameVar: "Seated Calf Raises", value: maxLiftedLabel.text!)
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.HideKeyboard()
+        
+        retrieveDataGlobal(EntityVar: "Legs", ExeriseNameVar: "Seated Calf Raises", value: maxLiftedLabel.text!)
+        
+        maxLiftedLabel.text = valuetest
+        
         
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
         addBannerViewToView(bannerView)

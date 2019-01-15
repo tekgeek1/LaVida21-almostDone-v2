@@ -30,9 +30,10 @@ class ChestPressMachine: UIViewController {
     }
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.HideKeyboard()
         
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Chest Press Machine", value: maxWeightLiftedLabel.text!)
         

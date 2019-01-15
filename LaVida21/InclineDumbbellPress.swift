@@ -33,7 +33,10 @@ class InclineDumbbellPress: UIViewController {
         super.viewDidLoad()
         
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Inclined Dumbbell Press", value: maxWeightLiftedLabel.text!)
+        
         maxWeightLiftedLabel.text = valuetest
+        
+        self.HideKeyboard()
         
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
         addBannerViewToView(bannerView)

@@ -33,6 +33,8 @@ class InclineDumbbellPullovers: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.HideKeyboard()
+        
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Incline Dumbbell Pullovers", value: maxLiftedLabel.text!)
         
         maxLiftedLabel.text = valuetest

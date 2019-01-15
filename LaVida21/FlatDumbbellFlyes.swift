@@ -19,12 +19,12 @@ class FlatDumbbellFlyes: UIViewController {
     @IBOutlet weak var Workout3: UIImageView!
     
 
-    @IBOutlet weak var newMaxLiftLabel: UILabel!
-    @IBOutlet weak var newMaxLiftText: UITextField!
+    @IBOutlet weak var maxLiftedLabel: UILabel!
+    @IBOutlet weak var newMaxLifedText: UITextField!
     
-    @IBAction func newWeightButton(_ sender: UIButton) {
-        newMaxLiftLabel.text = newMaxLiftText.text
-        updateDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Flat Dumbbell Fly", value: newMaxLiftLabel.text!)
+    @IBAction func newWeightLiftedButton(_ sender: UIButton) {
+        maxLiftedLabel.text = newMaxLifedText.text
+        updateDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Flat Dumbbell Fly", value: maxLiftedLabel.text!)
         self.dismiss(animated: true, completion: nil)
     }
     
@@ -32,9 +32,11 @@ class FlatDumbbellFlyes: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Flat Dumbbell Fly", value: newMaxLiftLabel.text!)
+        self.HideKeyboard()
         
-        newMaxLiftLabel.text = valuetest
+        retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Flat Dumbell Fly", value: maxLiftedLabel.text!)
+        
+        maxLiftedLabel.text = valuetest
         
         bannerView = GADBannerView(adSize: kGADAdSizeBanner)
         addBannerViewToView(bannerView)

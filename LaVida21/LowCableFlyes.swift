@@ -26,10 +26,10 @@ class LowCableFlyes: UIViewController {
     }
     
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.HideKeyboard()
         
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Low Cable Fly", value: maxLiftedLabel.text!)
         

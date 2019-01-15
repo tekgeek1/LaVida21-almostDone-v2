@@ -5,23 +5,36 @@
         <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="Back" representedClassName="Back" syncable="YES" codeGenerationType="class">
-        <attribute name="exerciseName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="Biceps" representedClassName="Biceps" syncable="YES" codeGenerationType="class"/>
+    <entity name="Biceps" representedClassName="Biceps" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <entity name="Chest" representedClassName="Chest" syncable="YES" codeGenerationType="class">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="Legs" representedClassName="Legs" syncable="YES" codeGenerationType="class"/>
-    <entity name="Shoulders" representedClassName="Shoulders" syncable="YES" codeGenerationType="class"/>
-    <entity name="Triceps" representedClassName="Triceps" syncable="YES" codeGenerationType="class"/>
+    <entity name="Legs" representedClassName="Legs" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Shoulders" representedClassName="Shoulders" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Triceps" representedClassName="Triceps" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
         <element name="Chest" positionX="-45" positionY="0" width="128" height="75"/>
-        <element name="Back" positionX="-45" positionY="18" width="128" height="60"/>
-        <element name="Shoulders" positionX="-36" positionY="27" width="128" height="45"/>
-        <element name="Biceps" positionX="-18" positionY="36" width="128" height="45"/>
-        <element name="Triceps" positionX="0" positionY="45" width="128" height="45"/>
-        <element name="Legs" positionX="18" positionY="63" width="128" height="45"/>
+        <element name="Back" positionX="-45" positionY="18" width="128" height="75"/>
+        <element name="Shoulders" positionX="-36" positionY="27" width="128" height="75"/>
+        <element name="Biceps" positionX="-18" positionY="36" width="128" height="75"/>
+        <element name="Triceps" positionX="0" positionY="45" width="128" height="75"/>
+        <element name="Legs" positionX="18" positionY="63" width="128" height="75"/>
         <element name="Abs" positionX="36" positionY="81" width="128" height="75"/>
     </elements>
 </model>

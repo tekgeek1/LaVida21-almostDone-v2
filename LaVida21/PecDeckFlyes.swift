@@ -27,11 +27,10 @@ class PecDeckFlyes: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.HideKeyboard()
         
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Pec Deck Fly", value: maxLiftedLabel.text!)
         

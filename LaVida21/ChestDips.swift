@@ -31,6 +31,8 @@ class ChestDips: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.HideKeyboard()
+        
         retrieveDataGlobal(EntityVar: "Chest", ExeriseNameVar: "Chest Dips", value: maxLiftedLabel.text!)
         
         maxLiftedLabel.text = valuetest
